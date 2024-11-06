@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ses Kaydı</title>
+    <style>
+        #recordBtn {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        #stopBtn, #playBtn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            display: none;
+        }
+        #playBtn {
+            margin-left: 10px;
+        }
+        #statusLabel {
+            margin-top: 20px;
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Ses Kaydı Uygulaması</h2>
+
+<button id="recordBtn">Rec</button>
+<button id="stopBtn">Stop</button>
+<button id="playBtn">Play</button>
+<p id="statusLabel">Durum: Hazır</p>
+
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let audioBlob;
+    let audioUrl;
+    let audio;
+
+    const recordBtn = document.getElementById("recordBtn");
+    const stopBtn = document.getElementById("stopBtn");
+    const playBtn = document.getElementById("playBtn");
+    const statusLabel = document.getElementById("statusLabel");
+
+    // Ses kaydına başlamak için
+    recordBtn.addEventListener("click", startRecording);
+
+    // Kaydı durdurmak için
+    stopBtn.addEventListener("click", stopRecording);
+
+    // Kaydı çalmak için
+    playBtn.addEventListener("click", playRecording);
+
+    // 15 saniye sonra kaydı durdur
+    let recordingTimeout;
+
+    function startRecording() {
+        statusLabel.textContent = "Durum: Kayıt başlatılıyor...";
+        audioChunks = [];
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(stream => {
+                mediaRecorder = new MediaRecorder(stream);
+
+                // Desteklenmiyorsa uyarı ver
+                if (!mediaRecorder) {
+                    statusLabel.textContent = "Durum: Tarayıcı MediaRecorder desteği sağlamıyor.";
+                    return;
+                }
+
+                mediaRecorder.ondataavailable = event => {
+                    audioChunks.push(event.data);
+                };
+                mediaRecorder.onstop = () => {
+                    audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    audioUrl = URL.createObjectURL(audioBlob);
+                    audio = new Audio(audioUrl);
+                    statusLabel.textContent = "Durum: Kayıt tamamlandı. Oynatmak için 'Play' butonuna basın.";
+                };
+                mediaRecorder.start();
+
+                // Buton durumlarını değiştirme
+                recordBtn.style.display = "none";
+                stopBtn.style.display = "inline-block";
+                statusLabel.textContent = "Durum: Kayıt yapılıyor...";
+
+                // 15 saniye sonra kaydı durdur
+                recordingTimeout = setTimeout(stopRecording, 15000);
+            })
+            .catch(err => {
+                console.error("Ses kaydı başlatılamadı:", err);
+                statusLabel.textContent = `Durum: Ses kaydı başlatılamadı. Hata: ${err.message}`;
+            });
+    }
+
+    function stopRecording() {
+        if (mediaRecorder && mediaRecorder.state !== "inactive") {
+            mediaRecorder.stop();
+            clearTimeout(recordingTimeout); // Zamanlayıcıyı temizle
+
+            // Buton durumlarını değiştirme
+            stopBtn.style.display = "none";
+            playBtn.style.display = "inline-block";
+            statusLabel.textContent = "Durum: Kayıt durduruldu.";
+        } else {
+            statusLabel.textContent = "Durum: Kayıt durdurulamadı.";
+        }
+    }
+
+    function playRecording() {
+        if (audio) {
+            audio.play();
+            statusLabel.textContent = "Durum: Kayıt çalınıyor...";
+        } else {
+            statusLabel.textContent = "Durum: Çalacak bir kayıt yok.";
+        }
+    }
+</script>
+
+</body>
+</html>
