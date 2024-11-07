@@ -3,64 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Video Puanlama</title>
-      <link rel="stylesheet" href="Rep_Style.css">
+    <title>Ses Kaydı</title>
+    <style>
+        #recordBtn {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        #stopBtn, #playBtn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            display: none;
+        }
+        #playBtn {
+            margin-left: 10px;
+        }
+        #statusLabel {
+            margin-top: 20px;
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <div id="div_ch">
-        <label><input class="ch_tepe" type="checkbox" id="Movie_Clips"> Movies</label>
-        <label><input class="ch_tepe" type="checkbox" id="Words_Forms"> Words</label>
-        <label><input class="ch_tepe" type="checkbox" id="Grammar"> Grammar</label>
-        <label><input class="ch_tepe" type="checkbox" id="Dialogue_Vips" checked> Vipss</label><br>
-    </div>
-	<label><input type="checkbox" id="ch_audio" onchange="toggleAudio()"> Ses</label>
 
-    <div id="statistics">
-        <p id="tot_vids"></p>
-        <p id="filt_vids"></p>
-        <p id="avg_rate"></p>
-        <p id="tdy_vids"></p>
-    </div>
+<h2>Ses Kaydı Uygulaması</h2>
 
-    <div id="vid_info">
-        <p id="vid_name"></p>
-        <video id="video-player" width="400" controls autoplay>
-            <source id="video-source" type="video/mp4">
-            Tarayıcınız video oynatmayı desteklemiyor.
-        </video>
-		<button id="bt_replay" onclick="replayAudio()">Audio Replay</button>
-    </div>
-
-<label id="lb_srt" style="display: none;">Altyazı</label>
-
-
-<div class="but_container">
-    <button id="bt_down" class="button" onclick="downJson()">Down</button>
-    <button id="bt_finish" class="button" onclick="finishWork()">Finish</button>
-    <button id="bt_start" class="button" onclick="getRandomVideo()">Start Puan</button>
-</div>
-
-<div id="ses_bts">
-<button id="bt_srt" onclick="srtShow()">Subtitle</button>
 <button id="recordBtn">Rec</button>
 <button id="stopBtn">Stop</button>
 <button id="playBtn">Play</button>
 <p id="statusLabel">Durum: Hazır</p>
-</div>
 
-<div id="rating_cont">
-        <div class="rating-buttons">
-            <button onclick="submitRating(1)">1</button>
-            <button onclick="submitRating(2)">2</button>
-            <button onclick="submitRating(3)">3</button>
-            <button onclick="submitRating(4)">4</button>
-            <button onclick="submitRating(5)">5</button>
-        </div>
-</div>
-  
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let audioBlob;
+    let audioUrl;
+    let audio;
 
-<script src="Rep_Script.js"></script>
-<script src="Rep_Subtitles_DB.js"></script>
-<script src="Ses_Script.js"></script>
+    const recordBtn = document.getElementById("recordBtn");
+    const stopBtn = document.getElementById("stopBtn");
+    const playBtn = document.getElementById("playBtn");
+    const statusLabel = document.getElementById("statusLabel");
+
+    // Ses kaydına başlamak için
+    recordBtn.addEventListener("click", startRecording);
+
+    // Kaydı durdurmak için
+    stopBtn.addEventListener("click", stopRecording);
+
+    // Kaydı çalmak için
+    playBtn.addEventListener("click", playRecording);
+
+    // 15 saniye sonra kaydı durdur
+    let recordingTimeout;
+
+    function startRecording() {
+        statusLabel.textContent = "Durum: Kayıt başlatılıyor...";
+        audioChunks = [];
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(stream => {
+                mediaRecorder = new MediaRecorder(stream);
+
+                // Desteklenmiyorsa uyarı ver
+                if (!mediaRecorder) {
+                    statusLabel.textContent = "Durum: Tarayıcı MediaRecorder desteği sağlamıyor.";
+                    return;
+                }
+
+                mediaRecorder.ondataavailable = event => {
+                    audioChunks.push(event.data);
+                };
+                mediaRecorder.onstop = () => {
+                    audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    audioUrl = URL.createObjectURL(audioBlob);
+                    audio = new Audio(audioUrl);
+                    statusLabel.textContent = "Durum: Kayıt tamamlandı. Oynatmak için 'Play' butonuna basın.";
+                };
+                mediaRecorder.start();
+
+                // Buton durumlarını değiştirme
+                recordBtn.style.display = "none";
+                stopBtn.style.display = "inline-block";
+                statusLabel.textContent = "Durum: Kayıt yapılıyor...";
+
+                // 15 saniye sonra kaydı durdur
+                recordingTimeout = setTimeout(stopRecording, 15000);
+            })
+            .catch(err => {
+                console.error("Ses kaydı başlatılamadı:", err);
+                statusLabel.textContent = `Durum: Ses kaydı başlatılamadı. Hata: ${err.message}`;
+            });
+    }
+
+    function stopRecording() {
+        if (mediaRecorder && mediaRecorder.state !== "inactive") {
+            mediaRecorder.stop();
+            clearTimeout(recordingTimeout); // Zamanlayıcıyı temizle
+
+            // Buton durumlarını değiştirme
+            stopBtn.style.display = "none";
+            playBtn.style.display = "inline-block";
+            statusLabel.textContent = "Durum: Kayıt durduruldu.";
+        } else {
+            statusLabel.textContent = "Durum: Kayıt durdurulamadı.";
+        }
+    }
+
+    function playRecording() {
+        if (audio) {
+            audio.play();
+            statusLabel.textContent = "Durum: Kayıt çalınıyor...";
+        } else {
+            statusLabel.textContent = "Durum: Çalacak bir kayıt yok.";
+        }
+    }
+</script>
+
 </body>
 </html>
