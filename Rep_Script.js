@@ -1,17 +1,17 @@
         const GIST_ID = '4cbd70174b7dee0b4f4d6e05b458cc3d';
-        const GITHUB_TOKEN = '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'; 
+        const GITHUB_TOKEN = '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'; 
 
         let videos = [];
         let currentVideo = null;
 
         function getDevicePathPrefix() {
             const isWindows = navigator.platform.includes('Win');
-            //const isAndroid = navigator.userAgent.toLowerCase().includes("android");
+            const isAndroid = navigator.userAgent.toLowerCase().includes("android");
 
             if (isWindows) {
                 return "D:\\All_Clips\\";
-            } else { // else if (isAndroid) 
-                return "/storage/emulated/0/Download/Pip_English/All_Clips/";
+            } else if (isAndroid) {
+                return "/storage/emulated/0/Download/Pip_English/All_Clips";
             }
             return ""; 
         }
@@ -39,7 +39,7 @@
 
 async function getRandomVideo() {
             if (videos.length === 0) {
-                alert("Video yüklenmedi!");
+                alert("Veri yüklenmedi!");
                 return;
             }
     // Bugünün ve dünün tarihini kontrol et
@@ -81,7 +81,7 @@ async function getRandomVideo() {
     document.getElementById("video-player").play();
     console.log(fullVideoPath);
 
-// ------------------------------------------------------------------------------ Altyazı işlemleri 
+// --------------------- Altyazı işlemleri 
     let parts = fullVideoPath.split("/");
 let videoName = parts[parts.length - 1];
 let text = "";  // text değişkeni
@@ -92,7 +92,7 @@ let text = "";  // text değişkeni
             break; 
         }
     }
-    document.getElementById("lb_srt").innerHTML = fullVideoPath; //text;
+    document.getElementById("lb_srt").innerHTML = text;
     document.getElementById("lb_srt").style.display = "none"; 
     document.getElementById("ses_bts").style.display = "block"; 
 }
@@ -128,7 +128,6 @@ let text = "";  // text değişkeni
 
             getRandomVideo();  // Yeni video seç
         }
-		
 function replayAudio() {
 	document.getElementById("video-player").currentTime = 0;
 	document.getElementById("video-player").play();
@@ -193,7 +192,7 @@ async function finishWork() {
         // --------------------------------------------------------------------------------- İstatistik hesaplama fonksiyonu
         function statistic() {
             if (videos.length === 0) {
-                alert("Json yüklenmedi!");
+                alert("Veri yüklenmedi!");
                 return;
             }
 
