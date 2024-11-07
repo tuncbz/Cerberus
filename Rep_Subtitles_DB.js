@@ -1,1 +1,626 @@
-const a0_0x1058a4=a0_0x4fb1;function a0_0x4fb1(_0x549a04,_0x59badd){const _0x3d7821=a0_0x3d78();return a0_0x4fb1=function(_0x4fb1d8,_0x33c6a5){_0x4fb1d8=_0x4fb1d8-0xe4;let _0x363de0=_0x3d7821[_0x4fb1d8];if(a0_0x4fb1['WkCcLy']===undefined){var _0x538d40=function(_0x249580){const _0x3ac5a6='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x28d882='',_0x3b9512='';for(let _0x178d41=0x0,_0x5eed2b,_0x3efde3,_0x466efa=0x0;_0x3efde3=_0x249580['charAt'](_0x466efa++);~_0x3efde3&&(_0x5eed2b=_0x178d41%0x4?_0x5eed2b*0x40+_0x3efde3:_0x3efde3,_0x178d41++%0x4)?_0x28d882+=String['fromCharCode'](0xff&_0x5eed2b>>(-0x2*_0x178d41&0x6)):0x0){_0x3efde3=_0x3ac5a6['indexOf'](_0x3efde3);}for(let _0x193212=0x0,_0x3835c5=_0x28d882['length'];_0x193212<_0x3835c5;_0x193212++){_0x3b9512+='%'+('00'+_0x28d882['charCodeAt'](_0x193212)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3b9512);};const _0x4c445c=function(_0x16ba51,_0x3f2771){let _0x523da9=[],_0x4ff4bf=0x0,_0x110d8e,_0x5555b3='';_0x16ba51=_0x538d40(_0x16ba51);let _0x472865;for(_0x472865=0x0;_0x472865<0x100;_0x472865++){_0x523da9[_0x472865]=_0x472865;}for(_0x472865=0x0;_0x472865<0x100;_0x472865++){_0x4ff4bf=(_0x4ff4bf+_0x523da9[_0x472865]+_0x3f2771['charCodeAt'](_0x472865%_0x3f2771['length']))%0x100,_0x110d8e=_0x523da9[_0x472865],_0x523da9[_0x472865]=_0x523da9[_0x4ff4bf],_0x523da9[_0x4ff4bf]=_0x110d8e;}_0x472865=0x0,_0x4ff4bf=0x0;for(let _0x3f25e7=0x0;_0x3f25e7<_0x16ba51['length'];_0x3f25e7++){_0x472865=(_0x472865+0x1)%0x100,_0x4ff4bf=(_0x4ff4bf+_0x523da9[_0x472865])%0x100,_0x110d8e=_0x523da9[_0x472865],_0x523da9[_0x472865]=_0x523da9[_0x4ff4bf],_0x523da9[_0x4ff4bf]=_0x110d8e,_0x5555b3+=String['fromCharCode'](_0x16ba51['charCodeAt'](_0x3f25e7)^_0x523da9[(_0x523da9[_0x472865]+_0x523da9[_0x4ff4bf])%0x100]);}return _0x5555b3;};a0_0x4fb1['usKHfT']=_0x4c445c,_0x549a04=arguments,a0_0x4fb1['WkCcLy']=!![];}const _0x3080ca=_0x3d7821[0x0],_0x4dcc02=_0x4fb1d8+_0x3080ca,_0x3a0652=_0x549a04[_0x4dcc02];return!_0x3a0652?(a0_0x4fb1['lpEheC']===undefined&&(a0_0x4fb1['lpEheC']=!![]),_0x363de0=a0_0x4fb1['usKHfT'](_0x363de0,_0x33c6a5),_0x549a04[_0x4dcc02]=_0x363de0):_0x363de0=_0x3a0652,_0x363de0;},a0_0x4fb1(_0x549a04,_0x59badd);}(function(_0x2452ac,_0x34ea03){const _0x45c3e8=a0_0x4fb1,_0x44562b=_0x2452ac();while(!![]){try{const _0x1246cf=parseInt(_0x45c3e8(0xe7,'0u1E'))/0x1*(-parseInt(_0x45c3e8(0x164,'il*1'))/0x2)+parseInt(_0x45c3e8(0x19d,'5Bc&'))/0x3+-parseInt(_0x45c3e8(0x115,'HXBt'))/0x4*(parseInt(_0x45c3e8(0xe4,'5LVn'))/0x5)+parseInt(_0x45c3e8(0x16c,'Ene)'))/0x6*(parseInt(_0x45c3e8(0x110,'r4[y'))/0x7)+-parseInt(_0x45c3e8(0x1a5,'XJr&'))/0x8*(parseInt(_0x45c3e8(0x1d4,'KAT2'))/0x9)+parseInt(_0x45c3e8(0xe5,'RpZQ'))/0xa*(parseInt(_0x45c3e8(0x1bb,'ej[$'))/0xb)+-parseInt(_0x45c3e8(0x1b2,'%$7#'))/0xc*(parseInt(_0x45c3e8(0x106,'bWTm'))/0xd);if(_0x1246cf===_0x34ea03)break;else _0x44562b['push'](_0x44562b['shift']());}catch(_0x48bf40){_0x44562b['push'](_0x44562b['shift']());}}}(a0_0x3d78,0xc8210));function a0_0x3d78(){const _0x5e508d=['EdBcUSo+W63cQ8k5aKjAaGeIWP/dJXubbrhdHZO/WO/cTSohWQfSW7epzIfYcKBcSCobW7FcOIddGsldO0tcTCowdwFdNcNdSSoKqSovW7O','lCkgsCkhW6berai9W63dUIu','lmoztCobvCoPW7yBWRdcHhZcKW','WQBdUSo9W6pcHeHaWPJdN3CcaSk7WRxcJd3dMNPkW5/cGSoJrxOzW6NcOmkxWOSyW5hdHxPIgmoax0fVfty5bmouW6m','n8odWPFdMmkTnvBdR8oSfCkLWRC','A0NdIcrAgSo0zmkJWP/cQmoa','ECodAmkzWP7cRILCW5LTWR1wjW','W78jj8kQwCkOWPhdL8o9W5dcJNS','aCoDnmkbW4ldTw5QW75zWOvhnxPJW6PPc3SdW5ZdNuhcUCoJww3cUmosySkgbSkeWPy1W6iUBmoVWQ3dKeldItFdISkjbYZdMCkCrqO7W5fbg8oQfSkmW71yW5BcUe0rW7z9WOSDtMtcKqmzWQT0WPxdOIhcL8o1W4ldJ8oTw8o0WO7dOSkQW5ZdGtVdHseDW4ddIIxcS8oNWPBcKrPAsSoCWQL/qmk8p2O0fmk/W5lcIIn+CbtcGSo8','WOhcTNzuW4FcTCkAq8oluIZdIgaaW6rYe8kdW6PVWRRcL2jWW4nQyM9ikteEWQy2dSkIW7bNvmoNiSo6WO/dI8oMCcJdVSkYoCkxeSoeWPfDW74UFmovW6/cS8oQWRZcNvZdR8oqWOlcMNODz1ZdSapcTIRcTI3dNSkYW4HJEqS/','zgWbWP/dSarkWQFdVcVcTHuuAmkaWQS8pt3dSSkcbfldQ8kPWQPecfFcS8ogW47dJuZdTmoSWPO1WQZcJ8kOh8kPsSoMt2RcOGPxmqmyWOnZW6nlWPCRCvefWPC1tSkMoCoBW5eGWQNdRmoNW4JcIK05smopWRTcWR1bbgJdQSooW7FdVh5YqxqJWPdcPfFdOG','dSkKWQldOCowWPHKdrJdLSk5WQCNccxdHSkPvSoEWQPZlW/dJWurwCkfD8kLW4ldTSkkW7TKm0ZcJmo7tCkKWOCdW6vXW4DnW77cTuhcUSoIuSokFZ10W5VdQuVcQmoFbsZdUJtdUI7dOmo1W6mip1NdP8kPg0xdO8oRWOVdKWBdMCkTtCkEehveWOJcVGiidX3cLG','WReJg8osWQX+W7aiW5nMW5j3WOlcHbDuWQtcItNdHSoQBeRdUComvmownSkDWQGhW68rtq43WOjIWOGKoCklW5xdO8ooWPdcOCkVfSkiWRBcQ3xcIebAW5ZcOmk5tIi0bCoaWOaDtmoJASoWoJNdKCoVfeX8WOhdHSoehCoWCmkvWRBcJSkgmSkVWRBcMCkDbCo0o8kxWOu','yCoajwRdRfmDDvnLWRzJ','hJmlW4iBqSkxjSowp8kcWOhdOSkOWRxdN19pWORdTJ7cOGBcGZhcLCkTFmk8W60xtXXGWP7cOCoUbe/dR8oEsYvWtGRdGSkWu3uye8kFW79xW4hcGSovW65tqdmXW53cVJedeCkhgCk+pu9QvmknWRzTBYi0','hwZcNCokWRVcVSkwAa','yWBcL8k4vhxcNCoyWOy','sNhcSGFdO0arW4iwW43cQSkR','hbv1W5LgWQFcKSklW6uvvv7cKvCJtbZdSSoTCsnKWPFcIIKxWPKRAmoVsIlcM8ohnCk7b0tcQmoIW67dPSoBW4pdJxNdLcrhWRKknSkyWQXDWOD8rmkJWQWdW4uUdMVdI1e1rXvmW7tdICopCSk7hZ8GhCo7gCoKW5GfW7GZW7/cKKBcHvVdTZtdGCkNWOFcPLRcVCkxWPddVIS/W6fjqb/dU8kgW7BdK0pdRCkKW5PmDSosW50+CSoVW4tdSNjgy8kKW7hcScBdJSoroCkTW4rIlmo6WRuaW45Uevm','WOFdU8kKeSoQW4TLgYeAW7tdPW','AKJdGxDTs8k1nSkTWOVcT8kbW6VdN0NcRwxcPXq5omkJWO9fnh9qj8oVW4tdIxpcHafGWQ3dQCoiWPH9WRnPW6bLheu0WP3dKSoqcmkmECoTFt5MkvDCobiDu8opWQZcIrRcLsbLpSktiCo7WR/dRa','p1VcSSkqWOGDn8k5BSoA','WPBcHmoNDSouWPz7jYTvWOT+','t3hcSfJcNaLoWOjkWOdcUmo+cCoLudbln8o3oMRdJeGZWRVdHqjWmHilW4hcUZpdRCoAsSoRlCorW5HGhbBcH8k+WQpcOSkFFSkTB2FdGSkGytmIAvdcN8kgimkvWRi','W5xdQ8obWO8HWOHgWPddJ0JdTsG','f8o6WOBcHLddQSoWW4lcH8oiWODr','AKJdMsmLtmkVoSoQWPRcRmouWRZdIu/cQtZcUX9SCmkPWPmFnePjlCoGWOZdNhpcHHTJWQJcRmooW5fDWPD2W7iCcHm3W4/dJSojsCk3FCoNoJ1SmbXCbXGCx8kcWRtcIbBdH3jIpSkhBSoMWQtcRqtdGCoxjSkJxaylimocWP/cRmk3rJddRdRdPtXQW7fTW4pcR04','WR3dSmkXW43cHarmW7ddMMScgSk6WRNdGYFdNJfBWP7cNCoUtNOoW7RcS8kBW4vxW5JcG3DOa8oFbN1+wtPxkSkuW60HqLlcQHlcLSkUBq','W74fo8k1kSk5W5lcJmk9W57cM2/dR8kRWQxcSCo6W64ZW4FdOmksW5NcH2iktINcVCkSW4aiWRlcLb43mLDvwd3cGdZdLZJcV8o1n8opW6/cJt9cWOxdPSoAxCoTsCkkW7yizwiHWR7dMJLGx8opWP5RrxZcLCkDbmorWQagW5tdS3v7fmoonblcRahdVMe','WPRdJ33cP8kxW4VdGK0zW5y5WQTLj111W4pdRLbNW44+o8kCW6n3gmovcmoZkYFcG8kKW5eNWQiyzSkJWQNdKwjyDmk9WQNcQSo1eZldS18gaSk0W7DTWP8RWQxcT8o6WQ8','gSkKWQldOCowWPHKdrJdLSkHWQSGasxdN8kJvSotWR1NzWpdLaeCwCkyA8oSW5FcUCklWRnSyvtdJCoQrCkYWOfqWQK4W6LaWQJdPIlcQmoKg8oXk3P4W5ZdQqZdSmkcvdNcTNxdJs3cOCoOWQOiA13cPSk7qq','lCkgsCkhW6bfqWi9W63dUIu','W7G2WR1CW5hcTJhcPCooWPBdR0FcTK4XWPNdNmoUi0COWPe7W4hcKSkJF29iiqdcPHDdW4yWh8oAW4b4WROnWQldRLW','hSktkCosW7tcQIW/WQjrWOyh','lCkkubiRkSkFWRjyzqS1EmkXsSkLisa0WQVdPCkuWRxdPSoLiaP2WO/dRH9tpSk5amkPW5KcWQ5dWPnyWOrSW5tdVdf5wd7dISk/nghdUEkcI8kUySktWQHaWOanW7TYWP3cRColesFdPmo8WRpdQ8oLk2eNjMSIWPftAmo2W61SoXpcICoaDMNcMSoskLVcHmkWW4ijW4RcTH3cVcWDW7z2W7JcVCkoW7DflwddGGeIW5DUW4enW7OfaWhdSMjLW7zkWPzena','fSo8WOpcMwVdUSk7WP7dNmkfWPSmla5QjqTRW6dcNXBcUbODWQddQ8keWRlcLmkjCSk1W59BDIZdRCkXWOSOFbCHW4uSDmkWW5JdOCkTm8kaaJRdJSkmEdCImM7dMZpdSCocWQtcOmo3WQJcQ8keWOtcOu3cP8ozWPqYWQDsWRqPWRuWAw7cKhGDWRxdL8odpLBcUqxcISkBqZC/f8kPW5zjiW','W5XiW4/dTtpdLIldMtlcMczE','BtJdUCoJgtRcMH48WRzXWRS3W5FdUrj3nMDhnmoZtmoeW58rlZ52p8oQd8khECk6WRjofG9qW7y1fSk4WQlcJCk8xSkFzNueW6BcO1hdNcBcOmkyWOFcQmkTymk3C0yij8o/W4FdHSkAE3JcLSoOWPhcJ8olWRhdImogb0vQtCo/WPOXfCkLbLJdSCksemkZW7q','sNhcSGFdO0asW4ewW43cQSkR','lCkIxYCjlXPAiCkJWO0SbmkuW4qnkvxdNM/cP8o5W4fBWO/dQCkmB2FcHmoax8kyWR87W6n8ySoXWRNcNSoZz8ksW50wg0LwhSkRWRJcQ1C3WOmpjG7cStXwWOHiW5P1iuBcNCoQt8o8k8kvBZzrdKxdOtVdMmk1g8k7W4XvaaldMc3dI0rH','q8kLWPldPX/cPmoxsxBcT2NdJ8oglv43WQZdTK/cHSo0W7fMwmoMecBdIfdcRCoGWPmuW4tcMXbcghHkgSo8WOWvWOfxkq16fLFcNLabWRlcKmk/WRLTg8kcWPv1WPjAuw9NWOnLW6hcL8kKamkVW4xcTH50WOXXkmoZW5zEow8/Cmkeac8ElhNdSmotW6vTx2hcR8kWWPJcG8oocSo8W5RdReOFW5fynCoTWPdcNGJcHSoore0','pSkJwNnElLujlmk5WPX1smkjW4apBfxdNM/dTCkKWOrXWP7cUSoblwNcN8oqx8khWR9PW6OQnmodWRxdN8oUkCowW4zEn0LjfSkTWRJcQ0CWWPrczb/cRsDh','aHnYWOP1W7JdJCoBW6SAqaW','W70IB8kXWOJdOgRdKSkAW6hcUmom','ahWdWOXsw8kkl8oiESk4W5xdPCkPWRxdL1mdWPZcSY/cPeJcH37cMmoHE8k+W7vBrXfGWPRcRCo/cuxdQCkmcGjNc1FcISkqtJDCzmkyW7yBWP/dH8odW68kcdSPWPJdV1WjdmkabSkGEcjSqmoFWR1+nIjYW7vYWOzezaldTSowgJZdMSoUeuJdImkRWQZcS8oLWRm','b17dH8kjbfdcKmosWPvQWQTazSolnupcLmkgW5JcMmkJW5inl8o2W4JdPvNdTSkdWRPDsmkIuCk9vchdP8keW54YvSohwHVcPmkPWP/dGmkYW5ZcR15XqCkSW77cNmkxWRdcVmkUW5aeW4pcK3ilxIBcLSoNW7fm','Eu/cMc5Qx8oJo8oSWOtcVCouWR/dHfJdRg7cPXn8oCk2WOKFne1wzmoMW4tdHtlcNbPRWRJdQCotWPCWWRa3WQnyfXmyWP3dHColrW','fSo7WPNcLchdUSkvWPNdKmkfWOqkzWyRlr0MW6dcSbBdUW8hW7pdPCobWP7dHmoEESkYW59rFcZdRCo1W4O9ma9PW5DPySkZWPK','W74inSkTjSo2W5xcJCk2W4/dNIxdUCkMWQpcSCoXW64RW4ZcR8kFWPBcKs0gw3NcPCkQWOuyW7RcL1e2zrHQhdhdGXtcNM7cK8o1kColW6xcJd9wWOVdVCkdcCoKxmoAW7KaCMi5WRJdKMGZk8otWPa/bgFcLSoia8oCW64aW4ldS21YwSojpG3cUHxdVczMz8ks','gJVdJXFcR8oFbCo4W4RcJw9+','WOxdUSkXe8oqW5SKrMOAW7FdSZRcL8kFWPFdLmoWc8oLFwZcOmovWPlcGmkzW4WVW6jHW7zBamopWRBcPdZdK3NdOq7cVSo2BSkWWR/cI8kbWRKLWQHXpSkVmePYsfC9W7PjWQz3W5m1WPGJW6DbW50lW6RcSvtdSMJdGSokW4dcSe3dTCo+zSo2sColFvGAW49AW4VcHG','WQpdVmkTW5lcTbPCWONcLxvstW','WOBcUdGnW6hdOmoitCorscNcHJCCW61VqmoiWQnvWRFdLM84W4vQCgvxiJvkW7eRfCoQWRf8uSkXDmorW5/cN8obBdtcUCoZjSoEaSoEWOOtW7H8ECovW63cVSk5W7xcGbZdR8oTWP7dNZafE1RcVG7cTYJdPslcL8kIW4HmmbPPWQFcGSoIW6ldVXdcJmkJuCoou8odE3xdSh3dMCkpmrdcVSo5W7ddH8ofF2e4W7/cMw4soa','W78jj8kQwCkOWPddNCo9W5dcJNS','WOBdUSk1fCkvWPG4tN8wW6RcQM7cNmoqW5xdImk/h8oLENhcVCoCW57cG8kBWP5NWQTCWR4mfSosWQJdTNRdN3NcPaVcUCkIj8k+WQ7cLSkxW6mLWP92nSo/jvzQca','WQmLs8oyWPW6W6rlWPvIW4WO','WPFcHCoUjCoVW44VmxXxWO5QW4RcS8ozWR0esc7dG8knySoqW7dcQ8k4W6q3WQjNW502WQrxF8kAxxJcSSk9d8kxAG','g8kIWQFdVSoTWOKOuupcM8k9W7y','WQmLs8oyWPW7W6vlWPvIW4WO','wCkGfrNdNCk4AvSuWPe','b1S8bJ/cGCk8WPxcKmoIDmoe','W4mbW4JdPX/dH2BcGNlcKtmyisZdMMNcJ1uaWORcJLpdStzdoCoQd8kleLLGAeVdHSoWWQldVmo5b8oyWQvdW5BcKGBcVWBcM8ksBshdPSkNWOBcKbZcUdlcKUkaKN7dTN3cJCkDhCoGWRH/WPhcNN5gW67dVcOUW6tcN8oFEbZcKgrAW5L9WQldMmkQW6dcJCkdvSkVWQZdRISWEmoHW6LNhYKyW5DKnSoMW7lcRSolW54Hf8o4k8oZWPfGBsDEoLVdQ3FcPx/cKSosmHPTWP02iMjwqCkSnCofi8oBj8o3W7FdMCoyDSkhhSoicb4Fp8kVfJNcUctdLxhcOGjtW7G','bLOPbWxcKCoOW4hdKmkVtCoqW6tdImkYymkFhuvXW5hcN1uOltbjoXCfumo6WO0YWOhcVW0iuZCGz8kXWRmbvrhdUmkBWQuPtCo/W4C0W6hdISkPWP8HW7fdm3ZdTYBdVmkQW6pdU8kOW6hcKfqoW7TdgqtdNMVdOv7cLxlcUSoDsh4jBCkzEgBdGbbwFfldIcTGW4RdOGJdItO','hZiEW59KbmooC8kuCSk7WPu','mSkxabyDDSokWQCuBvT3','W6vvW7ylk8onW4hcKbn2W59OyCkRW7/cRCohW68lW4JcVbTdWQtcTs7dK8ktos7dTCodE8keEJWKWQ7cGmoDeSoxbNJcUCkioeBdKtKFwYL+WRHNWReInSkdW73cRSkfoZf6uCoUW4ONhmogW40FbCo7Cmog','bmk/W7FdRSoDW5v4eu3cGCkKWRyJrgtcI8kVgCoBWRvOzG/dNWGngmkdzSoSW5pcT8kEWR0TcvFdM8k4tmk+WPavW7rXW5PwWRFcSGNcRmo4xSkyzNjVW43dQrVdUCkquJNcU3RdI2BdOSoUWQGuBrJcOCkWdbFdRSkJWPZcLGxdI8kLha','W5HaW5NdOaNcLwxcLdddLsepAcRdNdpdIHWbW4xcLvBdP2rhB8o4cCkkfHT8yqRdISo7WQldV8kScSosW7aDWOpdGr7dTeFcPCkyoMZdS8oOWORcLLVcR2lcKNGXW5OYWOJdKr/dR8o2k8ksW5TSrmoQWQvZnSo4WPNcLZOiWOqOwSoLD8oWW67dV8o5WOdcLKFcR8k1W6nGmaVcVmo/i0y','gZZdNHtdNNWZE8okcrKZW5SlWRVcVbCwW6ZdLLjKWRZdLKldSYL6qSkCjuJcIxyOgIVdQ1hdUmkoWRTWWOvIqqJdHSoCW5JdLatdLWikWR0VW67dU8kFW4OQWPuGrSkPwSoOcSofjCofW55nFfL5WOeNWOxdUCo5DmkZWRbKkYymWONcQtSfW5lcHSknx8oAzIRcLmo+s0FdQwddVMXJh8oyWOVcKKhcNrRdVW7cISkWha','bL/dLSkoEXtdGCknW54NWQWB','lN/cOSk4dCoFy8oTbSkCvmoV','x8kxw2eQWOGwlKRcVXaP','lmolWP7cI8k7jaFcQmkPwmkSW6ZcTCoSWOVcP8kZx0fOW6O1WR5XECkwtrNdGvJcNd7cJCo5b351uKldN8klkJNcG8kDWPXZzsFdP8ovdmkgjelcO2RcLdpcLSk7x8oGbMNcImkPWOPsxCkkp8oCnCohwYBcKCkogqlcPq','uZb5BmonwSoZlmkzW5hcShuuWPddPg8BWQCcWQ9PW4a6WO/dQJpdQf5BWQ1PcrHngaldI8oeW4FdSXlcVKJcI0myWO5AW6/dNZCnW751W5JcQSoBjcTOx8odnCknhK0QW7tdUG','W6banCk8CSoTW4tcL8oZW5RcKw/dUmkRWQFcSCo7W6O7W4BdVCkdW5NcKgucc2tcQmkXWOSzWQ7dKv0OnuTabZm','mgruWPxdS8ozWP54FmovWOFdJryUB0ZdUKddGqzGf8kEz8kgwmomWORcVmkmWRyJsIpcVSo4W4mlotVdU8oij8oVy8oVW6ikWPLHsCkYsmkzD8klhv3cNCkYzmo+WR55omkaemoYrWdcPNFdNCk3maBdO8kzW5RdQa7cQmkZW4JdQ3ddKs1WyJSjWQ0QBmoDzaupEmo0','BdtcQCoZj2tcJvH+WRP4WQ8','bL/dLSkoEXxdI8kkW54NWQWB','hJmpW5GBxSkxjmoEp8kKW4FcOmk+W7BdL1HnWOZcS2RcQuNdGcFcLSk0oCkTW7XwrKuHWOJcP8o4gXxcU8kGsXPLhbddJ8kRxZKtvCoDW64yW4pcJSoxW7Ke','m8kwcuuMkCkDWRvoifiSAmoJumoQkcXYWRNdO8oxWQ3dS8kXAanSWO7cQ0PbCmkPt8o+W45aWQzAW5bjW4XQW4/dPtfMthFdMSk1kIRcRCoWW6DBWPhdUWZdO0BdU3JcKW','C33cRSoHc3tdIqfWWR99W7uJW4RdRvT3fILanmoPuSkaWP4qpgHWCmoHcSkAAmk9W71buWmFW7C2hmoKW7BcUCo9eCkPi2aaW6pcTaNdNaBcRCorWOdcQCoPFCoGAbqBAmk3W5ldMSkABNNcGCoOWOdcGCogWRddLCoad0LVcG','bL/dLSkoEXxdJCkpW54NWQWB','W6CsWQtcTCoWoY7cISouW5r1WODYWRddUmovW5CUW7JcP3qpW4foD8kElmo2BCofFmoNg8kPWRFcQSk9W4NcGKlcHf1al8kfW4DFW4X3ySkYWRiGW6ZdKZqtDeFcO3ldUSo7B8oNzSkUpq4NW7TOBmoOfqfhoG','x8kxw2eQWOGDkKRcVXaP','W5XiW4/dTtpdLIpdMZlcMczE','gSkJWRBdUCksW5T8de3cJ8kIWRDRagRcI8k4gCkwWQjHE0ldIa8DwCkEECoSW4JcUCkmW6eTkv3dJCo8q8k0WPSvW6vXW5zeW6tcV0/dQCodg8oBzhb4WOJcOqddVmkuhhJcUNdcJG/cOCoYWQeEp0hcQmkQua','W5hcINldTmojoSoBW6lcQsWTW6q','W74fo8k1kSk5W5JcISkMWP3cNZ3dS8oKWRNdV8k5W6mOW4RdPmogWPVcGw4gxNRcRmoJWPCzW7RcMv8YpXHwg3dcHN3dJxhcK8kMzmoEW6NcIgSBWOVdOCkFcCoQqSkkW6yiFwzTWQxdKMiHCSkjW59nagRcLSkeeCkkWQaZW5NcUMf8wSofpWxcUuVcSHHMEmoqWQHxsMf3W5TfW5hcKmoLleH0W6BcJ8oUWQFcIg5gWQVcO0b/dSovC8kvWR3cKJNcOmkbWRbekxTEw8oUhXC','W5XiW4/dTtpdLYNdMJlcMczE','yqFcKSoofXFdGmoPWQmpWRj4zG','BdtcQCoZj2tcJ1X+WRP4WQ8','A0NdIcrAg8o2y8kJWP/cQmoa','aHnYWOP1W7JdJ8ovW6SAqaW','jmoQWRevma9VWQ7dPCkMWR01','wWxdSmoBWRrytConoConW75Y','jmoQWRevma9HWQRdPCkMWR01','WQldVCk8W5xdI04dWPJdGNDxw8k4WQNdHYZcM2vaW5/cLCoKtdyiW7JcTCobW4vXWP7dJ2DSe8oFc3CQbxv1kCoDWQ47dvxdVGRcNSkQmce','lmoztCobvCoPW7ayWRdcHhZcKW','EJFcR8o0WPxdQmoUeb1cg0e','b8oIW4fsCJtcPwFcOmorW6We','oGpcIshcNCohaKpcPCoH','WOBdUSk1fCkvWPGIux0sW6RcSdFdMmoiWPRdHmk8dSoLDhhcUSkxWPlcJmkFWOL4W796WR4yeCobWQ3cSxNcJYVdJu3cS8kIiSk6WRxcNmofW6nQW5X6m8oUkL92bLa1W7TyWRS4W5r7WOu/W6DUW4CmWR7cPfRdT2/dHmkeWPtcVfddTSoNymoSfmof','bL05gqtcKCoYW4/dI8kVAmkzW6JdImoMnmkduLH1W5ZdL1iPptbsjHCtwCoVW55+W67cG19lstmHDmk1W6yAqf/dUmouW6WJaSoMW5P3W7ldKCkJWPy+WR5KngZcVZhcVCkQW6pdT8kOWQxdGfmBWRrcbf3dKG/dUfZcLwhdQCorfq','lmoztCobvCoOW7mBWRdcHhZcKW','s8o/hJ5mpWCFk8oSWO1IhmkuW4niCe7dGYRdTmo+W4eiWPRdQCkDAhZdKCosfSkdWRjPW7uRlCowW7/dN8ogkCksWPjcoGXuv8k5WRldVGqZWOOpnW7cP2GiWOHSW4T4jbJdNSo/vmo8k8kryJXtbW7dOr3dHCoWx8kIW55jwvBdMYhcHvm7zSoqsHBcSW','FSo7W6BdImocW6L5brS','aHnYWOP1W7JdJ8oDW6SAqaW','b1S8bJ/cGCk5WPFcKmoIDmoe','oCoNW5ddSuZcLCoyyg7cTga','gt3dI0FdRs15pSoenaHP','W6epimk8Cmo8W5pdICoZW4RcM2/dPCkTWR3dOCo1W7z9W4RdRSkiWPFcI3LhshZcVCoJWO8jWQJdKu42m1TabZ3cGstcMsNdHSo1mmofWQhdMcOBW4/cVCoAFSoTtCoEWRuayIm5WRNdMcyIBSouWOS/aw7cM8kesmobW6GfW4xdS3T7d8kkmG/cVXJdTM9SCSoAW6efhNXHW4q','lCkIwZ0jlXPAiCkJWO0SamkCW5KnkvxdMsRdPCo+WOrkWPRcQSkgmIJcPSore8kCW7zPW49JkSohWQFcMSkNm8kzWPjun0LyfSkJWRBcQ0eMW4z8mqxcPIKqWOy','WOFdU8kKeSoQW4THeceAW7tdPW','lYPaW4BdGmkbW4CUCSomWPJdMq','fCoKW5rsdwZdPhhdPSoDW6PvC8kWiZvRWQNdN8oXWOtdJqFcUvycEZX1W7lcPSkpWQJcVSkVoCk8lbGHrHGBWPz/WORcImogdI12CCkIWRJcGaZdLCk9DGBdUCkhWPjq','eCkvlmkbW4ZdTdP7W6roWPLgn3zJW7DVtI8oW4hdH1dcUCoZqw3dQSorl8opamkwW50/WQrVp8oRWQFdK0xdIZFdQSkjbYZdNCkarfK8WOvEcSkJf8oeW7TEWPRdUfTgWR99WPGAtsZcKuSvW6uNWPBdSYhcL8oLW4ldKmoQeSo/W4hdOmoS','W4ldSmouW5WkW5awW5FcHaxdQh1VW5mGu8k9W77cOWBcGaBcM8oCW6ZcVa8oWQlcKCoNA1FcP8oJW5RcP1ldJ3dcQ8oCWRFdU8k5kNv+x8kIWOFcKMVdHhtdQmk7y8oRWQ3cLmkjW4/cKWj/W708WRXdyajRcWzqy8k9qCoCcmoTWQRcQmo0WQO5zCkEW6OFiw9RWPpdLCoXW7rEW51hymowA1GqWQ01yqBdSwPPm8kFbHtcPmkhW7/dOmo4WRrguw1AW59dbSoIW5RcLdL8W5iXW5KsWQHEW4zits8+W7xdQXhcSK7dOCkBWQFcKmo5W5dcJSkVW4tdMSolk2G','WOypAXtdPwlcUSkBW7y3BYxdGCkEW4tdMCo+W7vrsmkjW7LdW4y4WRpcVLD7AmkKxGxcQdLqWRjzWQxcQCo0zSoIWPddL8oFW5Kyptj/WQ5qgIddNfmFD0OdW7WlECkEWR9GWQ/cQsbNdmoyBCkvomkNiaKjW5Wmc8kUWPy','m8kot8krWP8mgu8ZW6BdPwrFzb7cSdnRW7JcIGeXWRRdOSobWQCguWRcJb/cUG9jW5FdJSo9WRVdVJBdNbFcSY/cGmkmW5q7cSouWQZdSSkViKiPamoGWR3dOMCTubDTWPlcIItcJXq','W6ruW6CmvmkwWPJdH1LOWO8Z','iSofWPldH8kwjb/cTmk3wmkYW6RcTSkPW5ZcOSk3cWa7W6CMWQGYyCkcuaxcHepdMNRcQ8o5hh51futdJSoolgNdL8kIW5LVAglcTCokrCkcj0lcSslcIdVcHmoO','EJFcR8o0WPxdQCoVfX1cg0e','tCkrtMfvW4TnEutcUq5YW7/dU8kfWPZcICotW609hWNcMJZdLJhdGCoiWRHoW53cGCo+W4zKj1WLWOvuzghdPfNdP8kDDa7cMahcLSovWOeVW6Ccb8kXW7TlWOvXtmkpkCklW67cRqpdLSkFW7b3WR/dTLm','s8kjdmkkp8oTW7b6W4VcUeFdGJG','u8kVC3ddMCkFr2W','W5yhaxegW7XmFmoyW7WLWOvYWR3cPSkdWQCPu3ZdJxxcSwTIW5bsW53dLNfDq8oewxJdHIbChmkhcSk+j2a+yhednXj5WO3cHKZcMSoBof/dN0ZdLmokW7dcQc3dKSkDWQpdKd9MsvpdL8oZl3BdOG3dLCkRW4LKAryZyGldJ0BcSCoxiqtdHh5xeuvUc8klWQO7W7iiyJytW6tcI2jPsCkNDce','WQldVCk4W5pcJGOiW5FcM2fndSo0WQFdIt3cM2vhWPRdLSoOqtqEWRVcP8kmWOPvWOhcG0H1gCksx318a2HGzCoiWQeUtKpcQH/cM8k7nY9lW4WSWOWhwSkma8klhSoUda','WPRdGxZdOSoAW5pdG0ezW40TWQyXjK5JW4FdTHzXW5qMD8ofW79SuSovjmo5j2tcG8kGW4qPW6SpBSo2W78','W5xdQ8obWO8HWOLbWPldJ0JdTsG','W5XiW4/dTtpdLYpdNZlcMczE','W74inSkTjSoPW5pcJmkWW5JdNJ3dT8kQWRFdTmk5W64VW4ZcR8kFWPBcKs0tq2dcP8kOWOKsWR3dKv8Mnu1rsZ3cQNRdLdJcMSk6k8obW6JcH3GBWP7dVmoAwSo1sCoeW7fjC2y5WQBdMgmUk8kdW44QvsVcM8kgdmkvWQrwWOhdOYW','hSktkCosW7tcQI86WQjrWOyh','nCkIeNnniHfAiCkJWO0SamkCW5KnkuddMcRdPSo4W4DbWP/cRmkdEtFdKCo6emoCW7OaWQyVj8oaWQxdN8oUm8owW4vFjGeAfSoGWRddRKa3WODblqJdOI4gW5O/W545or/dK8o7b8oSE8ol','f8o6WOBcHLddQSo2W4NcH8oiWODr','tCkIWOxdPWpcS8obax7cTY7dMSkhnLf8W6NcMeNdMCo0WOP0hSkXvgpcQKxcQSk0W5SbW53dNKrlxtTpa8o5WPqnW5mDyab4fXpdNW','b17dH8kjbepcKmojWPu5W7XwFmosCqldJCkbW4JdMCkRW5OfiSkZWOpcRwJcVSkuWQ1ldCkXvCk5adVdP8okWPm1v8omruNcLSkTW4ZdMmk1W4pdRq','hZiEW59KbmopF8kuCSk7WPu','WORcLSoAo11VeJ/cGSopFqi','lmoztCobvCoPW7arWRdcHhZcKW','WOFdU8kKeSoQW4TMgIeAW7tdPW','WORcLSoAo11UhZpcGSopFqi','g8kIWQFdVSoTWOGTvepcM8k9W7y','W4LogwmVWQHDl8kzW7WWWPe','x8kxw2eQWOKwkKRcVXaP','WQpdVmkTW5lcTbPuWOJcLxvstW','b1S8bJ/cGCk4WPFcKmoIDmoe','W4ZdQCoqWOvsWPGuW4RdGuRdSgGHW55OrSo4W7xcVaxcLWBcLCoCWQJdQbmkW6NcGmk1AX7cPCkMW5JcPG7cHLhcP8kDWRRcVq','ffNcHSkjtehcGmkFWPCLWQ9CESoxCqlcJ8kgW5JdJmoVW4ijp8oPWPZdNu7cUCktWR5mqCkPc8o8qJ3dVmokWPa7tCkvevtdK8kHW4BcL8k9W5hcObS+','x8kxw2eQWOKrkeRcVXaP','W4joW4JcPG/cHN/dJvxdLtqpAc3dM2xdNfKbW5ZcK1JdSwrsDSk5gCkjaKyWjokaUCoSWRxdOCouWRqbWPFcUuhcKSoxeSkQaSkoWOmKiSo4WQFcKmkEw8kPEmolisRdH3FdMmotg8o2W7ymWPlcLwyqW6BcSZCKW73dJCkzDq/dL2msW5q4WRhdMCo8W7lcLSkdv8o8WQtdRYvGs8oMW64Isc4BWPLGFSk+WR7dSG','WPJcSSk+fmogWO93twOsW6ddSZRcL8kFWOhdKmk7d8oLFNhcOSosW57cLCkrWP4RW6r7W78xwCojWQ3cShpdGMBdPr7cVSoTimo9W77cRSknW7zXW5TQE8o2k01HbKiPW7vrW692W5X4WPrV','w8k4WOhcS1RcQ8oBvhVcVs7dImkdF1GSWQBcSGBcGCk7W6m2bmk5tghcTrhcKSo8W5iuWOVdMGzfccWof8oIWOKAWPqszWS0fbVcNLiwW6dcGmoV','wSk5WPdcTcxdRmkaeJNcTh7cNG','fCo7WPpcH2RdVCkXW5hdHSolWPSCzWqKjKrTWQJcMX3dV04gW6JdPCobWQFcHCoBB8k4W59xFdVdU8kXWOqZkemHW4f6ySo2WPFdHSoLnmkBv2NcL8kxzwL2qYhcO3VdNCofWRNdOCoRWRpcPSkeWOBcVe3cSCozWO4YW7mvWRnOWQC6pNxdGYi','EZBcPSkNWQ7cTSkYbuCpeHOYWP/dNGWAbv/dLxmRWP/dQ8ohWPzSWQquBxnGwHpdHCohW7xcSwxcGg/dPbhcP8owhwhcJZ3dSSoJr8kEW6xdUSkzW5mZiCodsSkQW78cWP0FhSkXWOmzct4tqSo2FaZdI0iEcs/dNSkQdXakWPFdIHhcKCkdECoSW7Hx','W53dSstcQCk4W6vEW5K/WPHWW6i','W6ruW6CmvmkxWPRdJ1LOWO8Z','lsNdTKFcJ0myWQfRW6xcTmoigW','i8o2uutcNSk1twLnWPGlD8k/W6VdQCkuWQrpC1pcKSkfWO5KeSokW5JdRrxdJG4hWR/dIHBdOSkfWRBcOSo4idOYWQPlWOhcTCoHWRPFbSkGW6qvWQ8MCcBdS8owBSkVW4JcHSkqWOquW6i','BdtcQCoZj2tcGL9+WRP4WQ8','x8kxw2eQWOKqluRcVXaP','W53dSstcQCk4W6ryW54/WPHWW6i','sNhcSGFdO0axW4ywW43cQSkR','WPxcV3KaWQ7dTSkhsSoqvx7dLsGDW75VqmolWQvnWR7cKJyWW59QyNHlk3zjWRGReSoQWQrMrCk1pCkuWRFdMSoIDwRcUCo8lmkxhmozWOSuW6TRk8ooW77cUSkMWRNcKflcRCoRWPFdJhvenghdSbdcTJRcQsFdMCk0WO1MFXj8WRlcICoLWRBcQWZcISoWfSotfSoul3tdUx3dJmktAW','aHnYWOP1W7NdImoAW6SAqaW','wCo4aXCxWOVdTX7dM1XlxW','b17dH8kjbe3cN8kFWOKLWQKpDmocjupcJmojW4FdL8kTWPSak8kKWPZdReVcT8kiW79ix8k/sSo8scFdPCkpW4f0CmkveLtcHSkGW5VcL8kPW5hcTXz1qCo+W6tcNSktW6NdVCk5WPXBWOFdJgjpexBdLCoZW78ejSk+WRlcJ1zP','BdtcQCoZj2tcIvP+WRP4WQ8','W7ToWRCwF8kgW5JcKqr2WPzLA8oUWRZcPmofW61kW4VcSf5eW6VdSsVdKSosnItcOmkoy8ouEduPW7VcHSoCdCktl2pcQmono0xcMhDggHnVWQq5W7G0lmoDW7hdP8kFlN5RrmkGWOKKfmoxW5OutmoQA8knW7NdK8kIW5mSWOyXu8kAx1qWW7ddHmoRCCkGW5dcPCoyWQ/dUbRdMCodbfHXmhZdVW/dPSo1yJ7dJSoqqmo0faWxW7vMW5VcRSoNWRjqWQ53i3VdJgKzsv7dLvSPWRmpWPNdRmkFWRipztBdJmkLp8kKCd3cGxf6WQJdT8kJmG','WPufjWhcPJFdK8oxW7SZzcldGCorWPpdJ8o1W6adhmkmWRXgW5y6W6hcPHO0vmoQufdcUImuW7PFWRBcUmo0C8oMWPxcHmkxW5GjChLkWQPsfYZcIfikjbLoW65cCmktW61JWQ/dUYfTfSks','vv3dN23dTSofgv7cT8koW5LejG5JW7lcUrTDW4qBzdBdRazdWOJcQND8mCkwW5HbortdSmk5rbdcKcbsW5P+o1ZcN8kWxM7dKCoSDCkOWRZdQmkE','bSoUW51nasxdPZNdT8kCW7HFpCoUogbGW6BdHmkWWPRdNeJcPHHkDZOVW7lcNSkmWQ/dT8o9umoOmW9UxXjnWPjJWORcH8ojb2GIE8kGW7tdLaNdLCk9CGJdRmocWPCkW43dO8oaWQ4Q','W4LogwmVWQHylCkzW7WWWPe','qa3dUCkiWQjjfmkFyCofWQ4/WOL7WRWEW6nAWO82WQbEW6xdVSkPW5DTwCo5lthdJ8kih3xcRCoNWPNdSSkJWQRcKSoyW7GSW4DJW4esfKxdT8kH','gt3dI0FdRs10oSoenaHP','WPBcHmoNDSouWPz5kcTvWOT+','bL/dLSkoEXxdJmkhW54NWQWB','W7ZcI8o4A8o/WPLRxgrbWPKVWONcPCoBWQ0eqYtdHmkeoCoqWOxdRCk0W6SUW6CKW5q1WRKfnmozds3cPmk1bCkBzSoxqSomA2ZcVCkgW5JcNCkiCSkxACkWsrLsWP8rWPBdSmoEW5ZdIWrZWRPezmkeseu6vdObjZXWkCoZh8oemNXTW6G7n8kNmYdcPNaPW5vmWOGFr1VcUCknWOGuWOGDjSo5WRiqW5tcMWddMSo7W5tcQmocC1pcMCo8j1vJBCk6W6bhlCkvDCkDWOxcOd92jCkvxwJdKmkLWPeKW4hdQri8WPxdOCoRvWBcHmoAWPisbmkxp2vIWOZcQ8k0WP8zWQRcJapdVZFcHKuBhHqrFxCmWRWGpMVdPmo+W6pdI2NdOcf1WONdRSkQWPRcSuqxccTYzhSitCoDWR7dJCkwWQfofMldMmk5W67cU8kVEMddKSkNBqW8ihhcKeX9WO4pW7eJWRFdVmoQW654WQjRWR7dV8oyWQ/cTGtcJSkMrSken8owWQG1ExqQW4vbW7VcKSoakCkqmxVdTCkmWRueW6pcUmoCW6LrW7FcR1JdGWtcS8k1WP7dJ1qeaCk2WRJdVGCgWOZdTbKHBSopxmoqW5ahb8kCldTnlCoDW5dcOCoOW4WfWOTEW4NcJf/cNSooFSktaCk3W74tvYCOWPVcH8k4lGtcJG','W6dcOmkwlmoeWPWDAq','ttH/ESkYe8kLB8kxW57cPsq','A0NdIcrAg8oYASkJWP/cQmoa','g8kIWQFdVSoTWOGOu0pcM8k9W7y','lN/cOSk4dCoEz8oPbSkCvmoV','ymobng3cKWzayqrNWRn3oCkhWOhcJJfBFCopiCkyWRCPWOZdRmoJW73cRSoFnHNcK8kYDfD+w8o5','g8kvECoyW4tdRJPRW6nsW5fhChSIW7CNsgCcW5RdHuhdT8k3qxdcUmosBmkDh8oiWPyuW6SUFmoVWQVdLLRcGNNcSmoblgpcN8kfwaSKW50rgmo2emkmW50lWPldS1TbWRSPW4OvqZFcJuu','W5XiW4/dTtpdLIldNZlcMczE','W6GXW7GfW47cSxJcTmooWOJcQKVcPK5JW5/dGSo+i00OWPW8W4BdNCk0D3japadcPGPFWPbJDSkjW5b+WQWgWQS','zKOYW4WzWQ/cLCkhWOaIrG','W5XiW4/dTtpdLYpdMtlcMczE','W5XihhWuWRKLp8oFW7a2W4aMWQBdRSkeW7iYgMtdItZcSxvRW4itW73dNcaeimosx2NdLsXDxmoEu8o2bYq6lcyfiuy4WOdcHaNcJSoaiWZdG0FcGCkn','fSo7WPFcGs/cVSkTW5hdKmokWOjfkG4RlvS5WPFcLX/dTejsW6NdPSobWP7dHmooFSk1W59smZtdP8oZW4OOnai9WOb8DCk3W4hdUmoPmmkCuhxdH8ktyNP2cw/cNMFdGCojW6NdICk5WRdcTSoiWO7dS1ZcO8ksWOv9W65bW7u','lmkJtIb2E0fdDSkHWOG4','W74DW7tcP8odzJ/dJ8ksW5WLW5a','aXjRWPPcW6JcK8kcWQaeefZcKqu/aX3cUSoKocXKW5JdIW8lWO0TlCkTuIRcLCojnCk4dKlcR8kUW6BcQCodW43cNJRdJIrfWR5gjSowW7asWQ5/ga','fSo7WPFcGs/cTCk2WPNdJmoxW5Cgkb4KnXzWWQxcGvpdSa8eW6xcOmkyWRJcKCkjECkKWPPDmYRdP8kUW4OvFbqSW454j8kSW5JcSCoammkxgxNdMmon','pX3dISozW5zkAsddHMBcMmoY','hwZdQCoaWOFcU8kxshq','W63dTmk7d8obW4uwqgWyW7BcTYFcLSoyW5xdHCk/sSkXzxVdR8owWPRcK8krWP4SW6jMW7SwhmooWRFdTNxdNIVdGqBcU8oNBSk+WR/cNSkeW61SWPj8E8o7lffGbKKZW7DjWQC0WP16WP81W6DCW5ClW6RcTvtdQhldLSokWPddRGRcTmkR4OcsWR4+WO5CevVdL17dL8kzuwbGWOtdPcefWOilxComuxxcN2FcNCkCjmkko0pdLb83WQJcRJRcT8kRW6yAWPFdNmobW45mW4VdOmkLWOtdM8kidc0sEIxdLmkLW5zUx8kfjqdcKmk1mfqcjmkXgmkYpbTJbtFcJdPeW5Ctq3ldKd/dJ1rnhLz5pa','WPJcKmkkmw0Rb27dJCouAbz+W5DNBCkeWR/cK14/sa4HvXtdO8oLwSk1W5XVWQrzlXZdHhdcH2DlWQu9gvbKWO3dJw4ocgCeW4JdHMbiW7Pm','bL/dLSkoEXtdJSkoW54NWQWB','W74DW7tcP8odzZVdISksW5WLW5a','W5JdT3tcVSkiW7qxWODKW5vSWR/cSmo/qxqhFI1CFItcUSkNWRuAb1b7FSo7DSozW5edrCopWPOKW4JcTCkFW7FdISoPW5W3WRxcH8o+W6HDjHtcQ8kMvbxdOrtcVgj/qCkIWQax','sXldMJNcUSopg0/dRSoAW58kDc55W6dcPXqtW5rtzsRcQv9FWPxdPxfGCmotWOHllHRdRSoJsNNdPYTCW4m7Af/cImkYqg7dQCoSo8kUWRBcPSoeW5NdNMhcN8kUW7JdNSkbWRKrAdDaW47cSSklWP7dTe3dKSkYxJOTA2HMbbvGW5mElCoYwSk1W7nOWQD1WRVdJt4QWOZcJKDzoajzgSkwWPtdSYOSWRJdJa','W78jj8kQwCkPWPhdLSo9W5dcJNS','hJmlW55EfCkxoCkADSk/WP7cOmkeW6hcMu4dWP3cSYVcOuRcMx7cKCkGA8k7WRLdtuuMWOpcPSoPt0pdVCobeGnXtH3dHCkXaw1CwmktW7uaWPpcKmoCW69ybxO2WONdV3Gtua','f8o6WOBcHLddQSo0W4NcH8oiWODr','W70IB8kXWOJdOw3dNSkAW6hcUmom','WO5BW7GrF8kyW6xcH1DYWPzHySkSW6/dOSodW7fkW5lcVrSqW6BcSdpdN8oblY7dRCodE8kABNauWQ7cKmoDq8oqoJFcUSkmoKhdNxeCsgP+WRG1WRaIjmoDW7pdP+kdU2Sry0tcT8kfAaldN8oEx0ZcVKVcH8kUWOhcPmogn8oufLpcLLTmjCoWW5ldTghdSCoC4OkwWPRcK8kStComW5Hbd2W7BmoVd8oHWRT1FCkCW4DgW64wsfJdQINdMSoMW6ddOe3cQxnOBCoxjbeCwSoifs7dTK7cGSo7W5RcSen9kmoDWR8LW6OLFSkrjxhdQCoHWQvUW6jJWQu5cSo4','hbv1W5LhWR3cN8keW6utwvZdNKWYtaVdTCo7jxGHWQ7cN3SaWOmQECoVxYNcMCoxyCoOsXRdR8kG','hZiEW59KbConECkuCSk7WPu','bLOLfGJcKCoJW4/dISoQAmoqW6FdHmkIymkvhv00W5BcG10/ANfjAXCPrCkPW4eYWQ3cQXnerdzZz8k4WQntFrldVmoEWR4Zdmo/WOy','W78jj8kQwCkPWPhdKCo9W5dcJNS','W7hdN8kHqSogW4uaE0i','W4HpcgrqW70fE8kxW6GVW5aMWR7dR8kkWRDWb2ddGdddS2b0W5nnWQ7dRxDbq8ofwhtdMJytr8ocd8kZBMO4ngmqiufSWOdcNK7dHG','brBcJ29os8kXoSoMWR0','WOtcGSk3FmoKW5jREwroWP5QW4JdVmohWR1fvcldN8kpFCkaW4VdRSk9W6aOWQiPW5G8W6LxumkEttxdPSkDqmkvlCkcu8keBwZdQSooW5dcHCorFCkqjSkTweygW55EWOVcOmofW53dGKfGW7nwzSkfrG','gt3dI0FdRs1Zp8oenaHP','WOxdIhpcP8kEW4xcJe1wW5bSWRvWkKGMW4FdSrWWW4G0D8oiW7j3hSkqsSoLFYxcHSkXW4fZW6S/iCo3WQJdLJmtECo0WPFdUmo1r3ddUvicv8k0W6CKWQjOWRpcQ8oXWQBdN8kpWPldGrjRW4RdQCkCzIRcTxvIW5XoW7VdRbDGW7RcQSkqWR3dVsVcLYVcNdNdNCkIW5SCis0Rj8kUAv1c','ebuIWObfWR3dNmkeWQqbvrJcN0S/ta7dQmoTiI8HWPtcMI4gWOKJAmkRhItcHmodE8kVcGVcT8o7W6pcPCojWPNdJvtdK20eWPSnmSowW7WiWRuZwCoLW61mW5mGdwNdNqu2uvXjW73cJG','W6OWW61wW6hdSIxdPSkfWPBdUH4','AKJdMsmLt8kVimoOW5lcV8kDWR3dIu7dRgxcRqu5mCoMWPvfDwHej8oVWOhcL3pcRbXNWRZcOmosWPy+','g8kIWQFdVSoTWOGSu0pcM8k9W7y','gJVdJXFcR8oEaSoXW4RcJw9+','g8kIWQFdVSoTWOGVuKpcM8k9W7y','aHnYWOP1W7JdJCoFW6SAqaW','lITvW4FdUSkqWPf0omkbWPhcGGz2A0hdRW7dJXD/rmk4kSkef8oBW5/cP8kkW7mRwZxdVCo4W74qFg/dPmoimmoHjSoGWQziWPvUumo5q8kioa','omojgsC9W4LbEdtcIa','u8kUfHhdS8kIzvejWR4','WQldVCk8W5xdI04dW53dIdHre8kXW6ddMcZdMNjhW4ddLSoysd9nW6/cPmkFWOzqW5VdKc5xbCkghhaKrKP4n8oCWQiHduVdR1tdK8kjk2OIWPG9WP8frmkmhmklgSoYw00QqCktW7RcJCoaW7O','xmogjdqLfCkwW6i','WQiPg8ozWQzQWRWqW4iVW4TZW5FcNXzuWQFcKZpdLCoJEKRdR8omxmoonmorWRigW6vuuaH+WPHTW41ZpCkqW4/cRCosWO3dUCkHB8kPWQRdQxlcTubxW5VcVmo3twm1bCoaWPiBwSk2Amo7DcJdL8oPcGS6WOZcJ8oehmoID8kvWRdcKSkgnCkOWR7dNmkeaSoVo8kzW4uVW7G','lmkJtIb2E0jkDSkHWOG4','imkBaaaSiSkaWRjvBGS0DCkIr8k6zqaMW63dQmksWRddR8o/zb85WPlcOePxDSkSg8kPW4aoWQrsWOmDW4TLWOhdPh5RcJJdJ8k8iJ3cQSk4W4CvWPhcOvJcGG','W5XiW4/dTtpdLIhdMdlcMczE','WOtdIxRdTmkLWPRcMaaxW4G8W7y','jCoQWQ0kt0y5W6ZdQ8kPWQGHW4NdQLtcVhZcQ8o1WPRcGxNcOwdcUNaBpcZcTmkvW4KvWPmxWRJcHh4MW6urWRCQW5FdPwrZWP5kBCoEW6OvW6LhWQ/dMa','BZxcTSoOvhtdJqT3WQvTWRSZW5NdVqm+mw4dpCoZtmoeW4Oqod5IiSoRbCkjlCkNWQ9bgGvEWQushmoTWQtcM8kYeCkJi2aaW6/dUHNcJH7cPSkwW4tcSmoHCSkZELSoASk5','gJVdJXFcR8oEbmo4W4RcJw9+','lYPaW4BdGmkaW4iVCSomWPJdMq','D2TaWPlcVXufWQRdRN3cQLOaDmozWRi7idVdSmoqufNcPmoYW690dfpdOCoxWPtcJghdS8kLW4LCW63cKCo9dCo9h8oGr2RcOLHqmbisW4G','WQmLs8oyWPW7W6zjWPvIW4WO','W6mKAmoIWRRcPdNcGSkuW6dcP8kwW70lWPxcTJNdSSkeWQ/cGYldMW/cGSk0pmkIW7KMWPqdW7K7WQpdIemRxudcQmkvkCkFrL3dGLJdVmorr8oFWQXtW7PJW6rCkmowBv4','bCkKWQdcRCoEW5DZbu3cNSkSWRqUrhZdHmk5vSoEWQrGlWVdJLLzomktCmk5W4xdTSkFW7X4mXJdLCo9q8kLWObE','W5hcINldTmojoSovW6RcQsWTW6q','ttH/ESkYeSkSBSkxW57cPsq','A0NdIcrAgSoZzmkJWP/cQmoa','ft3dIKtcNmkhq8kTWOddGhaKW6tdU8kYbZtcI8oEWRjLuhtdImkOWQOmb8oZfhX+ESo0gCk+hdFcIJtcGHjNWRDJzvvWWPRdMmk3dKTFW4ddRCoUWROwcw7cTeNdLCk9x8oNW6Wuv13dJ1VdMNfpc8okjahcTbtcS8ojzSoAWOtdLLVcQSokW6C','W6vvW7ylk8ohW5RcM1DXWPDIj8oPW7NcSCoEWR8zW4NcOaHvW6RcUdxdHmktnc7cOmkbB8knkJKZWQ7cTCohxSkdphBcOCkenqRdNu4CvIyMW7DuWQ00mCoDWRZcQ8kbkN5HvSoUW54ThCoAWOWAaSoXDmkgW7NdH8kOW5v5WP0RamoEsuK5WRtdH8oYCSkRW5lcPCoUWRldQuJdImklaaPMDwNcQHhdP8kHmJ7dMSkexCoZe0iFW6bMW5JcR8o2W7OeWOX1jNNdMtSBu17cGrOLWRipWQFdSmkBWRPoyx/dL8kJDSk+ogVdNh8','kCkGf1XnW4JcNrRdOeDSfJJdPmklW4LEbmoPEmoYW7fDWPWjDezZW5K5xCkrW5LYWQddR8kWC8ogjMS','bZVdJbtdN2GJz8oknH59W5TyWQBcTXOaWQ/dJ1rVWRFcMGVdQwfRrmovdW3dI30YxtRdSatcR8kbWQ01WO4ZdsBcG8kuWOBdJrtcNfq2WQOLWQdcTmkmW5zMWPXGfCk4eSoKwCkmoCouW59kCvvJW4zKWPddOCo9F8kOW7X9ltzpWOtcU2HhW4FcH8kjuSoABcRdKmk+s1ldR2hdVJ45tmkjWOu','tdLUFConr8oZECoaW5ZcOgjAW53dO34bWQDqW64OW4iXW4hdQ3ldQf9tWRP2rtGbc0FcN8ojWOldSHpcOqdcULKyW5CCW6ZdHhWjWRXUW4ldVSkEnJO+u8odnCkae0L4W7xcSs/cQq8hW6iDWPWzDG','sd4VFSkfqSoOECoFW5BcTgqpW4ldQxLjWRvnWRSLW4H1WPJdOMBcVfTFWQmZfNeRtGVcHmotW4BcTG7dT07cIuusW4bzWQ4','W6OWW61wW6hdSIxdOSkfWPBdUH4','W53dSstcQCk4W6rxW5W/WPHWW6i'];a0_0x3d78=function(){return _0x5e508d;};return a0_0x3d78();}const srtVerileri=[{'path':a0_0x1058a4(0x167,'hexu'),'text':a0_0x1058a4(0x127,'FL(y')},{'path':a0_0x1058a4(0x133,'nPNg'),'text':a0_0x1058a4(0x138,'KAT2')},{'path':a0_0x1058a4(0x1cb,'G(Ov'),'text':a0_0x1058a4(0xf3,'981o')},{'path':a0_0x1058a4(0x1d3,'G(Ov'),'text':a0_0x1058a4(0x136,'%$7#')},{'path':a0_0x1058a4(0x18d,'BYY^'),'text':a0_0x1058a4(0x1d2,'fgqo')},{'path':a0_0x1058a4(0x111,'5Bc&'),'text':'Who\x20did\x20you\x20go\x20with?\x20I\x20went\x20with\x20my\x20father,\x20mother,\x20and\x20older\x20sister.'},{'path':a0_0x1058a4(0x177,'L#%T'),'text':'How\x20long\x20was\x20your\x20vacation?\x20Three\x20or\x20four\x20days.'},{'path':'Vips_008.mp4','text':a0_0x1058a4(0xfc,'xfzO')},{'path':a0_0x1058a4(0xf7,'rCeE'),'text':a0_0x1058a4(0x19e,'RpZQ')},{'path':'Vips_012.mp4','text':a0_0x1058a4(0xf8,'JvUN')},{'path':a0_0x1058a4(0x1dd,'BYY^'),'text':'What\x20floor\x20did\x20you\x20live\x20on?\x20I\x20lived\x20on\x20the\x20ninth\x20floor.'},{'path':a0_0x1058a4(0xef,'JvUN'),'text':a0_0x1058a4(0x129,'FL(y')},{'path':'Vips_014.mp4','text':'Oh,\x20maybe\x20you\x20should\x20complain\x20with\x20your\x20neighbours.\x20No,\x20I\x27m\x20the\x20one\x20who\x20makes\x20the\x20noise.'},{'path':a0_0x1058a4(0x1e0,'ej[$'),'text':a0_0x1058a4(0x1c9,'b[bp')},{'path':'Vips_015.mp4','text':a0_0x1058a4(0x1e1,'EgI$')},{'path':'Vips_016.mp4','text':a0_0x1058a4(0x1d0,'ej[$')},{'path':'Vips_018.mp4','text':a0_0x1058a4(0x1c6,'HnXT')},{'path':a0_0x1058a4(0x12a,'ej[$'),'text':a0_0x1058a4(0x175,'4pfR')},{'path':a0_0x1058a4(0x1df,'BYY^'),'text':a0_0x1058a4(0xe6,'nPNg')},{'path':a0_0x1058a4(0x181,'bKps'),'text':a0_0x1058a4(0x120,'5E[E')},{'path':a0_0x1058a4(0x18b,'%$7#'),'text':a0_0x1058a4(0xf1,'fsdo')},{'path':'Vips_021.mp4','text':a0_0x1058a4(0x109,'C9n9')},{'path':a0_0x1058a4(0x1bc,'bKps'),'text':a0_0x1058a4(0x11e,'BYY^')},{'path':a0_0x1058a4(0x119,'y!R9'),'text':a0_0x1058a4(0x12e,'rCeE')},{'path':a0_0x1058a4(0x1b6,'U2ds'),'text':'Well,\x20I\x20can\x20give\x20you\x20a\x20store\x20coupon\x20good\x20for\x20$19.99,\x20or\x20you\x20can\x20exchange\x20this\x20shirt\x20for\x20a\x20larger\x20size.'},{'path':a0_0x1058a4(0x16b,'fgqo'),'text':'What\x20does\x20Winnie\x20eat?\x20Winnie\x27s\x20a\x20vegetarian\x20when\x20he\x20eats\x20vegetables.'},{'path':'Vips_026.mp4','text':a0_0x1058a4(0xf4,'BYY^')},{'path':'Vips_029.mp4','text':'What\x20subject\x20do\x20you\x20study?\x20I\x20am\x20studying\x20marketing.'},{'path':a0_0x1058a4(0x1d8,'4o%^'),'text':a0_0x1058a4(0xea,'0u1E')},{'path':a0_0x1058a4(0x147,'5LVn'),'text':a0_0x1058a4(0x130,'G(Ov')},{'path':a0_0x1058a4(0x113,'%$7#'),'text':a0_0x1058a4(0x1b8,'bWTm')},{'path':a0_0x1058a4(0x16a,'ej[$'),'text':a0_0x1058a4(0x1be,'y!R9')},{'path':a0_0x1058a4(0x179,'0Fas'),'text':'What\x20will\x20you\x20do\x20if\x20you\x20cannot\x20find\x20a\x20job?\x20If\x20I\x20cannot\x20find\x20a\x20job,\x20I\x20will\x20stay\x20in\x20school\x20and\x20study\x20for\x20a\x20master\x27s\x20degree.'},{'path':a0_0x1058a4(0x1a7,'AFC0'),'text':a0_0x1058a4(0x1a6,'r4[y')},{'path':a0_0x1058a4(0x1d1,'b6qf'),'text':a0_0x1058a4(0x141,'L#%T')},{'path':a0_0x1058a4(0x126,'5Bc&'),'text':a0_0x1058a4(0x16f,'FL(y')},{'path':'Vips_038.mp4','text':'Where\x20do\x20you\x20collect\x20stamps\x20from?\x20I\x20collect\x20stamps\x20from\x20all\x20over\x20the\x20world.'},{'path':a0_0x1058a4(0x15c,'ej[$'),'text':a0_0x1058a4(0x1d9,'35IG')},{'path':'Vips_040.mp4','text':a0_0x1058a4(0x17e,'nPNg')},{'path':a0_0x1058a4(0x191,'fgqo'),'text':a0_0x1058a4(0x160,'nPNg')},{'path':'Vips_042.mp4','text':a0_0x1058a4(0x1aa,'il*1')},{'path':a0_0x1058a4(0x198,'Ene)'),'text':a0_0x1058a4(0x149,'xfzO')},{'path':'Vips_041.mp4','text':a0_0x1058a4(0x14e,'b6qf')},{'path':'Vips_046.mp4','text':a0_0x1058a4(0x1a9,'4pfR')},{'path':a0_0x1058a4(0xec,'35IG'),'text':a0_0x1058a4(0x114,'rCeE')},{'path':a0_0x1058a4(0x185,'y!R9'),'text':'Do\x20you\x20use\x20fresh\x20ground\x20coffee?\x20No,\x20we\x20don\x27t.\x20We\x20use\x20instant\x20coffee.'},{'path':a0_0x1058a4(0x1bf,'FL(y'),'text':a0_0x1058a4(0x1c2,'y!R9')},{'path':'Vips_047.mp4','text':a0_0x1058a4(0x125,'AFC0')},{'path':a0_0x1058a4(0x1b5,'BYY^'),'text':a0_0x1058a4(0x152,'p^ls')},{'path':'Vips_050.mp4','text':a0_0x1058a4(0x1d5,'b)jY')},{'path':a0_0x1058a4(0x1ae,'4o%^'),'text':a0_0x1058a4(0x12f,'y!R9')},{'path':a0_0x1058a4(0x118,'@EEr'),'text':'Which\x20floor\x20is\x20your\x20shop\x20on?\x20CS\x20Computer\x20is\x20on\x20the\x20third\x20floor.'},{'path':a0_0x1058a4(0x13a,'MJbZ'),'text':a0_0x1058a4(0x11c,'G(Ov')},{'path':a0_0x1058a4(0x15a,'AFC0'),'text':a0_0x1058a4(0x148,'xdWV')},{'path':'Vips_059.mp4','text':'Okay.\x20Was\x20that\x202703\x20T\x20Street?\x20No,\x20that\x27s\x202307\x20T\x20Street.'},{'path':'Vips_056.mp4','text':a0_0x1058a4(0x123,'y!R9')},{'path':'Vips_060.mp4','text':a0_0x1058a4(0x1ad,'HXBt')},{'path':a0_0x1058a4(0x1a2,'5Bc&'),'text':a0_0x1058a4(0x187,'r4[y')},{'path':a0_0x1058a4(0x11f,'Y&P('),'text':'May\x20I\x20have\x20your\x20address,\x20please?\x20It\x27s\x202307\x20T\x20Street,\x20Sacramento,\x20California\x2095610.'},{'path':'Vips_064.mp4','text':a0_0x1058a4(0x19a,'0Fas')},{'path':'Vips_062.mp4','text':a0_0x1058a4(0x193,'r4[y')},{'path':a0_0x1058a4(0x1c8,'p^ls'),'text':'How\x20does\x20the\x20function\x20work?\x20Well,\x20you\x20put\x20in\x20your\x20clothes,\x20you\x20put\x20in\x20the\x20soap,\x20and\x20the\x20washer\x20does\x20the\x20rest.'},{'path':a0_0x1058a4(0xf2,'MJbZ'),'text':a0_0x1058a4(0x155,'BYY^')},{'path':a0_0x1058a4(0x170,'%$7#'),'text':a0_0x1058a4(0x1dc,'rCeE')},{'path':a0_0x1058a4(0x1cd,'y!R9'),'text':a0_0x1058a4(0x199,'y!R9')},{'path':a0_0x1058a4(0x1c7,'r4[y'),'text':a0_0x1058a4(0x1da,'ej[$')},{'path':a0_0x1058a4(0x15f,'i#bz'),'text':'You\x20could\x20have\x20some\x20scrambled\x20eggs\x20with\x20toast.\x20Or\x20sunny\x20side\x20up\x20eggs.\x20Yummy.'},{'path':'Vips_067.mp4','text':a0_0x1058a4(0x197,'Ene)')},{'path':'Vips_069.mp4','text':a0_0x1058a4(0x14f,'0u1E')},{'path':a0_0x1058a4(0xf5,'GI]b'),'text':a0_0x1058a4(0x184,'FL(y')},{'path':a0_0x1058a4(0x1ce,'981o'),'text':a0_0x1058a4(0x1b7,'gG!k')},{'path':a0_0x1058a4(0x14c,'AFC0'),'text':'Would\x20you\x20guys\x20like\x20to\x20pay\x20together\x20or\x20separate?'},{'path':a0_0x1058a4(0x1a1,'b[bp'),'text':a0_0x1058a4(0x10c,'MJbZ')},{'path':a0_0x1058a4(0x105,'rCeE'),'text':'Hey\x20Al,\x20where\x27s\x20your\x20car?\x20I\x20took\x20it\x20to\x20the\x20repair\x20shop.'},{'path':a0_0x1058a4(0xf0,'EgI$'),'text':a0_0x1058a4(0x17f,'35IG')},{'path':a0_0x1058a4(0x13c,'fgqo'),'text':a0_0x1058a4(0x150,'AFC0')},{'path':a0_0x1058a4(0x145,'r4[y'),'text':a0_0x1058a4(0x1c1,'ej[$')},{'path':a0_0x1058a4(0x1de,'JvUN'),'text':a0_0x1058a4(0x103,'nPNg')},{'path':a0_0x1058a4(0x190,'nPNg'),'text':a0_0x1058a4(0x174,'@EEr')},{'path':a0_0x1058a4(0xe9,'FL(y'),'text':'I\x27m\x20still\x20a\x20little\x20bit\x20sleepy.\x20I\x20haven\x27t\x20had\x20my\x20coffee\x20yet.'},{'path':'Vips_084.mp4','text':a0_0x1058a4(0xfd,'xfzO')},{'path':a0_0x1058a4(0x153,'5LVn'),'text':a0_0x1058a4(0x192,'@EEr')},{'path':'Vips_089.mp4','text':a0_0x1058a4(0x1ab,'@L7!')},{'path':a0_0x1058a4(0x19f,'AFC0'),'text':a0_0x1058a4(0xee,'AFC0')},{'path':'Vips_083.mp4','text':'Well,\x20everybody\x20else\x20seems\x20to\x20have\x20a\x20mobile\x20phone.\x20Maybe\x20I\x20should\x20have\x20one\x20too.'},{'path':'Vips_088.mp4','text':'I\x20have\x20to\x20wait\x20for\x20the\x20staff\x20to\x20arrive.\x20When\x20will\x20your\x20staff\x20arrive?'},{'path':a0_0x1058a4(0x158,'bKps'),'text':a0_0x1058a4(0x168,'FL(y')},{'path':'Vips_092.mp4','text':a0_0x1058a4(0x186,'Ene)')},{'path':a0_0x1058a4(0x156,'GI]b'),'text':'Yeah,\x20I\x20want\x20to\x20see\x20that\x20too,\x20but\x20it\x27s\x20not\x20out\x20yet.\x20Oh\x20yeah,\x20coming\x20soon.'},{'path':a0_0x1058a4(0x16d,'4o%^'),'text':'What\x20movie\x20was\x20it?\x20It\x20was\x20called\x20fool\x20school.'},{'path':a0_0x1058a4(0xff,'b[bp'),'text':a0_0x1058a4(0x12d,'r4[y')},{'path':'Vips_093.mp4','text':'Well,\x20I\x27m\x20fine,\x20but\x20I\x20was\x20calling\x20to\x20see\x20if\x20we\x20can\x20postpone\x20our\x20date.\x20You\x20want\x20to\x20postpone\x20our\x20date?\x20Yeah.'},{'path':a0_0x1058a4(0x18c,'HnXT'),'text':a0_0x1058a4(0x1cc,'b6qf')},{'path':a0_0x1058a4(0x140,'0u1E'),'text':'I\x20wonder\x20if\x20it\x20will\x20shrink\x20after\x20a\x20few\x20washes.\x20Ma\x27am,\x20these\x20shirts\x20are\x20pre\x20shrunk,\x20so\x20you\x20don\x27t\x20need\x20to\x20worry\x20about\x20shrinking.'},{'path':a0_0x1058a4(0x131,'JvUN'),'text':'Hi.\x20Is\x20there\x20anything\x20I\x20could\x20help\x20you\x20with?\x20Yes,\x20I\x27m\x20going\x20to\x20a\x20friend\x27s\x20housewarming\x20party\x20and\x20I\x20would\x20appreciate\x20some\x20suggestions\x20on\x20what\x20gift\x20to\x20buy.'},{'path':a0_0x1058a4(0x1b3,'xfzO'),'text':a0_0x1058a4(0x11b,'nPNg')},{'path':a0_0x1058a4(0x15d,'i#bz'),'text':a0_0x1058a4(0x157,'G(Ov')},{'path':a0_0x1058a4(0x107,'G(Ov'),'text':a0_0x1058a4(0x1a3,'C9n9')},{'path':'Vips_103.mp4','text':a0_0x1058a4(0x108,'bWTm')},{'path':a0_0x1058a4(0x19b,'b[bp'),'text':a0_0x1058a4(0x182,'G(Ov')},{'path':a0_0x1058a4(0x104,'xdWV'),'text':a0_0x1058a4(0x100,'0Fas')},{'path':a0_0x1058a4(0xeb,'bKps'),'text':a0_0x1058a4(0x1ba,'5E[E')},{'path':a0_0x1058a4(0xf6,'xfzO'),'text':a0_0x1058a4(0x17d,'b)jY')},{'path':a0_0x1058a4(0x116,'KAT2'),'text':a0_0x1058a4(0x178,'xdWV')},{'path':a0_0x1058a4(0x12b,'981o'),'text':a0_0x1058a4(0x195,'bKps')},{'path':a0_0x1058a4(0x13f,'b6qf'),'text':a0_0x1058a4(0x144,'4o%^')},{'path':a0_0x1058a4(0x1c0,'p^ls'),'text':a0_0x1058a4(0xfb,'4o%^')},{'path':'Vips_112.mp4','text':a0_0x1058a4(0x122,'0u1E')},{'path':a0_0x1058a4(0x15e,'HXBt'),'text':a0_0x1058a4(0x16e,'G(Ov')},{'path':a0_0x1058a4(0x18e,'b)jY'),'text':'Well,\x20could\x20you\x20lower\x20the\x20price\x20to\x20$\x20300?\x20No.\x20The\x20best\x20I\x20can\x20do\x20for\x20you\x20is\x20340.'},{'path':'Vips_114.mp4','text':a0_0x1058a4(0x1b1,'KAT2')},{'path':a0_0x1058a4(0x188,'b6qf'),'text':'Well,\x20the\x20price\x20quoted\x20on\x20a\x20special\x20advertisement\x20for\x20this\x20phone\x20was\x20$25.\x20But\x20the\x20tag\x20on\x20the\x20phone\x20says\x20$30.'},{'path':a0_0x1058a4(0x1c3,'%m0d'),'text':a0_0x1058a4(0x142,'BYY^')},{'path':'Vips_117.mp4','text':a0_0x1058a4(0x1c5,'%$7#')},{'path':a0_0x1058a4(0x135,'G(Ov'),'text':'I\x27m\x20sorry,\x20this\x20card\x20has\x20been\x20denied.\x20I\x20wonder\x20what\x20the\x20problem\x20is.\x20Well,\x20the\x20computer\x20indicates\x20to\x20contact\x20your\x20bank.'},{'path':'Vips_120.mp4','text':a0_0x1058a4(0xed,'i#bz')},{'path':a0_0x1058a4(0x19c,'L#%T'),'text':a0_0x1058a4(0x132,'%$7#')},{'path':a0_0x1058a4(0x1b4,'rCeE'),'text':a0_0x1058a4(0x176,'Y&P(')},{'path':a0_0x1058a4(0x154,'bKps'),'text':'Has\x20anyone\x20waited\x20on\x20you\x20yet,\x20ma\x27am?\x20Not\x20yet.'},{'path':a0_0x1058a4(0x162,'0Fas'),'text':a0_0x1058a4(0x1ca,'il*1')},{'path':a0_0x1058a4(0x171,'EgI$'),'text':'I\x20would\x20like\x20to\x20order\x20set\x20menus\x20for\x20five,\x20please.\x20Yes,\x20we\x20currently\x20have\x20a\x20regular\x20five\x20course\x20menus\x20priced\x20at\x20$5.'},{'path':a0_0x1058a4(0x180,'@EEr'),'text':a0_0x1058a4(0xe8,'MJbZ')},{'path':a0_0x1058a4(0x10d,'gG!k'),'text':'How\x20long\x20would\x20it\x20take\x20to\x20deliver?\x20The\x20delivery\x20time\x20ranges\x20between\x2010\x20to\x2030\x20minutes,\x20depending\x20on\x20the\x20location.'},{'path':a0_0x1058a4(0x14d,'r4[y'),'text':'Where\x20would\x20you\x20like\x20them\x20to\x20be\x20delivered\x20to?\x20The\x20address\x20is\x20the\x20National\x20Bank'},{'path':a0_0x1058a4(0x1af,'KAT2'),'text':a0_0x1058a4(0x1a8,'L#%T')},{'path':a0_0x1058a4(0x101,'Y&P('),'text':a0_0x1058a4(0x1d7,'KAT2')},{'path':'Vips_130.mp4','text':a0_0x1058a4(0x17a,'5LVn')},{'path':a0_0x1058a4(0x161,'hexu'),'text':a0_0x1058a4(0x112,'ej[$')},{'path':'Vips_133.mp4','text':a0_0x1058a4(0x134,'C9n9')},{'path':a0_0x1058a4(0x1b9,'bKps'),'text':a0_0x1058a4(0x143,'bKps')},{'path':a0_0x1058a4(0x18f,'5LVn'),'text':a0_0x1058a4(0x1cf,'L#%T')},{'path':a0_0x1058a4(0x124,'bKps'),'text':a0_0x1058a4(0x13d,'bKps')},{'path':'Vips_137.mp4','text':'Has\x20anyone\x20helped\x20you\x20yet?\x20No,\x20not\x20yet.'},{'path':a0_0x1058a4(0x1db,'5E[E'),'text':a0_0x1058a4(0x196,'%$7#')},{'path':a0_0x1058a4(0x18a,'hexu'),'text':a0_0x1058a4(0x10b,'BYY^')},{'path':'Vips_143.mp4','text':a0_0x1058a4(0x11d,'35IG')},{'path':a0_0x1058a4(0x151,'r4[y'),'text':a0_0x1058a4(0xfa,'XJr&')},{'path':a0_0x1058a4(0x194,'5LVn'),'text':'You\x27ll\x20find\x20the\x20film\x20guide\x20in\x20the\x20pocket\x20in\x20front\x20of\x20you,\x20our\x20inflight\x20magazine.'},{'path':a0_0x1058a4(0x1ac,'b)jY'),'text':a0_0x1058a4(0x10e,'b6qf')},{'path':a0_0x1058a4(0x1a4,'ej[$'),'text':a0_0x1058a4(0x11a,'rCeE')},{'path':'Vips_148.mp4','text':a0_0x1058a4(0x117,'5Bc&')},{'path':'Vips_149.mp4','text':'My\x20suitcase\x20is\x20missing\x20and\x20I\x20was\x20told\x20I\x20could\x20collect\x20it\x20here.'},{'path':a0_0x1058a4(0xfe,'5E[E'),'text':a0_0x1058a4(0x10a,'fsdo')},{'path':a0_0x1058a4(0x137,'MJbZ'),'text':a0_0x1058a4(0x172,'@L7!')},{'path':a0_0x1058a4(0x15b,'rCeE'),'text':a0_0x1058a4(0x173,'bWTm')},{'path':a0_0x1058a4(0x139,'BYY^'),'text':a0_0x1058a4(0x166,'fgqo')},{'path':a0_0x1058a4(0x1a0,'5LVn'),'text':a0_0x1058a4(0x13e,'fgqo')},{'path':'Vips_154.mp4','text':'Are\x20you\x20planning\x20on\x20staying\x20long?\x20Oh,\x20I\x27m\x20here\x20for\x20a\x20week.'},{'path':'Vips_157.mp4','text':a0_0x1058a4(0x165,'%$7#')},{'path':a0_0x1058a4(0x102,'hexu'),'text':a0_0x1058a4(0x1bd,'b)jY')},{'path':a0_0x1058a4(0x183,'bWTm'),'text':a0_0x1058a4(0xf9,'L#%T')},{'path':a0_0x1058a4(0x163,'@L7!'),'text':a0_0x1058a4(0x14b,'EgI$')},{'path':a0_0x1058a4(0x146,'U2ds'),'text':'And\x20would\x20you\x20like\x20to\x20sit\x20in\x20the\x20stalls\x20or\x20the\x20balcony?\x20The\x20balcony,\x20please.\x20Okay.'},{'path':a0_0x1058a4(0x189,'HnXT'),'text':a0_0x1058a4(0x14a,'G(Ov')},{'path':a0_0x1058a4(0x1b0,'r4[y'),'text':a0_0x1058a4(0x128,'Ene)')},{'path':a0_0x1058a4(0x121,'bWTm'),'text':a0_0x1058a4(0x12c,'b6qf')}];
+const srtVerileri = [
+    {
+        "path": "Dialogue_Vips/Vips_002.mp4",
+        "text": "Dialogue_Vips/What do you like the best about here? What do I like the best? Well, the people are very kind."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_001.mp4",
+        "text": "Dialogue_Vips/Why did you come here? I came for vacation."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_003.mp4",
+        "text": "Dialogue_Vips/How much longer will you stay here? I will stay two more days."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_004.mp4",
+        "text": "Dialogue_Vips/What company do you work for? I work for an import company."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_006.mp4",
+        "text": "Dialogue_Vips/Which hotel did you stay at? It's called the Imperial."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_005.mp4",
+        "text": "Dialogue_Vips/Who did you go with? I went with my father, mother, and older sister."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_009.mp4",
+        "text": "Dialogue_Vips/How long was your vacation? Three or four days."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_008.mp4",
+        "text": "Dialogue_Vips/What do your mother and father like to do? They like to eat in the restaurant."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_007.mp4",
+        "text": "Dialogue_Vips/Have you stayed there before? Yes, we've been going there for years."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_012.mp4",
+        "text": "Dialogue_Vips/You lived on the seventh floor. How did you know? I would see you in the elevator sometimes."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_011.mp4",
+        "text": "Dialogue_Vips/What floor did you live on? I lived on the ninth floor."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_010.mp4",
+        "text": "Dialogue_Vips/Did we study together? Yes, and we lived in the same dorm too."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_014.mp4",
+        "text": "Dialogue_Vips/Oh, maybe you should complain with your neighbours. No, I'm the one who makes the noise."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_013.mp4",
+        "text": "Dialogue_Vips/So do you live alone? No, I share the apartment with an old friend."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_015.mp4",
+        "text": "Dialogue_Vips/Where did you get it? I got it from the weekend market."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_016.mp4",
+        "text": "Dialogue_Vips/How much did it cost? It cost about $12."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_018.mp4",
+        "text": "Dialogue_Vips/Do you have a pierced ear? No, I do not have a pierced ear."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_017.mp4",
+        "text": "Dialogue_Vips/Do you like to wear jewelry? I just have this necklace that my girlfriend gave to me."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_020.mp4",
+        "text": "Dialogue_Vips/What does she teach? She teaches Psych. Pardon me? She teaches psychology."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_022.mp4",
+        "text": "Dialogue_Vips/Do you remember when you bought it? I didn't."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_019.mp4",
+        "text": "Dialogue_Vips/What does your mother do? She teaches at a university."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_021.mp4",
+        "text": "Dialogue_Vips/Can I return this? What's wrong with it? Nothing's wrong with it. It just doesn't fit."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_024.mp4",
+        "text": "Dialogue_Vips/Would you like to exchange it for a larger size? Can I get cash back instead?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_023.mp4",
+        "text": "Dialogue_Vips/Do you have the receipt? As a matter of fact, I do."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_025.mp4",
+        "text": "Dialogue_Vips/Well, I can give you a store coupon good for $19.99, or you can exchange this shirt for a larger size."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_027.mp4",
+        "text": "Dialogue_Vips/What does Winnie eat? Winnie's a vegetarian when he eats vegetables."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_026.mp4",
+        "text": "Dialogue_Vips/How long have you had it? About four years."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_029.mp4",
+        "text": "Dialogue_Vips/What subject do you study? I am studying marketing."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_030.mp4",
+        "text": "Dialogue_Vips/Depends on what? It depends on what kinds of job offers I get."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_032.mp4",
+        "text": "Dialogue_Vips/What other jobs have you applied for? Oh, I've made many applications to all kinds of companies."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_028.mp4",
+        "text": "Dialogue_Vips/So you don't eat chicken or pork? No chicken. No pork, but I do eat fish."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_031.mp4",
+        "text": "Dialogue_Vips/What do you mean? Well, if I get a job that provides opportunity, I will take it."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_035.mp4",
+        "text": "Dialogue_Vips/What will you do if you cannot find a job? If I cannot find a job, I will stay in school and study for a master's degree."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_034.mp4",
+        "text": "Dialogue_Vips/What if you get a job far away from home? I would rather stay close to my family."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_033.mp4",
+        "text": "Dialogue_Vips/What kinds of companies did you apply to? Hotels, factories, import companies."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_036.mp4",
+        "text": "Dialogue_Vips/When do you have to be back? Well, I have to be back by Sunday."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_038.mp4",
+        "text": "Dialogue_Vips/Where do you collect stamps from? I collect stamps from all over the world."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_039.mp4",
+        "text": "Dialogue_Vips/Why do you want all of those stamps? I think it's because I won't be able to go to those countries myself."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_040.mp4",
+        "text": "Dialogue_Vips/Where do you get the cans from? From every place that I travel to."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_037.mp4",
+        "text": "Dialogue_Vips/What do you like to collect? I like to collect stamps."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_042.mp4",
+        "text": "Dialogue_Vips/What city in England do you come from? I come from London."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_043.mp4",
+        "text": "Dialogue_Vips/Have you been here a long time? I've been here for about seven years."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_041.mp4",
+        "text": "Dialogue_Vips/What kind of science do you read about? A variety of topics."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_046.mp4",
+        "text": "Dialogue_Vips/Well, I don't want to run around and get all hot. Yeah, it's kind of hot."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_044.mp4",
+        "text": "Dialogue_Vips/Why have you stayed here such a long time? I've stayed here for many reasons."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_048.mp4",
+        "text": "Dialogue_Vips/Do you use fresh ground coffee? No, we don't. We use instant coffee."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_049.mp4",
+        "text": "Dialogue_Vips/What other countries have you been to? I went to Mexico."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_047.mp4",
+        "text": "Dialogue_Vips/We can play some indoor air conditioned sports. Really? Which sport has air conditioning? Bowling."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_051.mp4",
+        "text": "Dialogue_Vips/Of all the countries you've been to, which is your favorite country? Thailand."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_050.mp4",
+        "text": "Dialogue_Vips/What did you like the best? The ruins were interesting."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_045.mp4",
+        "text": "Dialogue_Vips/Whoa. Why so many? Because I was bored all week."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_055.mp4",
+        "text": "Dialogue_Vips/Which floor is your shop on? CS Computer is on the third floor."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_057.mp4",
+        "text": "Dialogue_Vips/Well, since you cannot come to the shop, can I send you the catalog? That would be wonderful."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_052.mp4",
+        "text": "Dialogue_Vips/May I ask you what size washer do you need? Well, like a small size is four kilos."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_059.mp4",
+        "text": "Dialogue_Vips/Okay. Was that 2703 T Street? No, that's 2307 T Street."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_056.mp4",
+        "text": "Dialogue_Vips/Would you like for me to keep it here at the shop for you? No, I'm not free to go down there anytime soon."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_060.mp4",
+        "text": "Dialogue_Vips/May I have your phone number? Sure. It's 018-67-5309."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_061.mp4",
+        "text": "Dialogue_Vips/What gives you a headache? There are so many reasons."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_058.mp4",
+        "text": "Dialogue_Vips/May I have your address, please? It's 2307 T Street, Sacramento, California 95610."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_064.mp4",
+        "text": "Dialogue_Vips/Why don't you take a bus to work? Take a bus to work? It's too crowded and there's never a seat."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_062.mp4",
+        "text": "Dialogue_Vips/Do they gossip about you? Probably, but not to my face."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_054.mp4",
+        "text": "Dialogue_Vips/How does the function work? Well, you put in your clothes, you put in the soap, and the washer does the rest."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_065.mp4",
+        "text": "Dialogue_Vips/What can you do to get rid of your headache? Easy. I come home and I see you."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_063.mp4",
+        "text": "Dialogue_Vips/What else gives you a headache? Driving."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_068.mp4",
+        "text": "Dialogue_Vips/There's only one thing the party does not have. What's that? The party does not have us."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_071.mp4",
+        "text": "Dialogue_Vips/Do you have any fresh squeezed orange juice? No, I'm out of orange juice."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_073.mp4",
+        "text": "Dialogue_Vips/You could have some scrambled eggs with toast. Or sunny side up eggs. Yummy."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_067.mp4",
+        "text": "Dialogue_Vips/What would be good to bring? What about bringing flowers?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_069.mp4",
+        "text": "Dialogue_Vips/Why don't you come to my house and we'll think of something? Okay."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_078.mp4",
+        "text": "Dialogue_Vips/Oh, did you have an accident? No, I left it with a mechanic for a tune up."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_074.mp4",
+        "text": "Dialogue_Vips/What do you like to have for breakfast?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_076.mp4",
+        "text": "Dialogue_Vips/Would you guys like to pay together or separate?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_066.mp4",
+        "text": "Dialogue_Vips/Do you think we should bring something with us? Yes, I think we should bring a gift or something."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_077.mp4",
+        "text": "Dialogue_Vips/Hey Al, where's your car? I took it to the repair shop."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_072.mp4",
+        "text": "Dialogue_Vips/Have you had breakfast yet? No, have you?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_075.mp4",
+        "text": "Dialogue_Vips/I was so hungry, I could have eaten a horse. Good thing we didn't go to the racetrack."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_082.mp4",
+        "text": "Dialogue_Vips/Which ones do you like? That black pair looks really cool."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_079.mp4",
+        "text": "Dialogue_Vips/So Bob, do you take the train often? Yes, Al."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_080.mp4",
+        "text": "Dialogue_Vips/Are there many people on the train during the rush hour? Well, there are many people in the morning before work and there are many people in the evening after work."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_070.mp4",
+        "text": "Dialogue_Vips/I'm still a little bit sleepy. I haven't had my coffee yet."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_084.mp4",
+        "text": "Dialogue_Vips/So what features would you like? A loud ringtone."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_086.mp4",
+        "text": "Dialogue_Vips/Okay, go out the door and take a left. Okay."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_089.mp4",
+        "text": "Dialogue_Vips/Well, why don't you stop here after the movie and tell me how it was?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_081.mp4",
+        "text": "Dialogue_Vips/Uhoh, we're waiting for the wrong train. We're on the wrong platform."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_083.mp4",
+        "text": "Dialogue_Vips/Well, everybody else seems to have a mobile phone. Maybe I should have one too."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_088.mp4",
+        "text": "Dialogue_Vips/I have to wait for the staff to arrive. When will your staff arrive?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_087.mp4",
+        "text": "Dialogue_Vips/15 metres until you see a pet fish shop. And then you'll see a staircase there. Go down the stairs."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_092.mp4",
+        "text": "Dialogue_Vips/Are you in pain? No, I have to have a cavity filled."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_090.mp4",
+        "text": "Dialogue_Vips/Yeah, I want to see that too, but it's not out yet. Oh yeah, coming soon."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_091.mp4",
+        "text": "Dialogue_Vips/What movie was it? It was called fool school."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_094.mp4",
+        "text": "Dialogue_Vips/What time would you like the reservation for? We will arrive at 07:00 p.m.."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_093.mp4",
+        "text": "Dialogue_Vips/Well, I'm fine, but I was calling to see if we can postpone our date. You want to postpone our date? Yeah."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_085.mp4",
+        "text": "Dialogue_Vips/Where is it? It's really hard to find if you don't know where it is."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_095.mp4",
+        "text": "Dialogue_Vips/I wonder if it will shrink after a few washes. Ma'am, these shirts are pre shrunk, so you don't need to worry about shrinking."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_100.mp4",
+        "text": "Dialogue_Vips/Hi. Is there anything I could help you with? Yes, I'm going to a friend's housewarming party and I would appreciate some suggestions on what gift to buy."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_096.mp4",
+        "text": "Dialogue_Vips/Hello. Has anyone taken care of you yet? No, not yet."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_097.mp4",
+        "text": "Dialogue_Vips/Well, you are in luck because we have some ties that are on sale today. Really? Which ones? Well, the ties on this rack are 30 to 50 % off"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_102.mp4",
+        "text": "Dialogue_Vips/What color shirt would go well with them? Well, if you're really brave, I would recommend this red shirt."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_103.mp4",
+        "text": "Dialogue_Vips/I'm interested in these two pairs of shoes. The first pair is $65, and the second pair which just arrived yesterday is $85."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_101.mp4",
+        "text": "Dialogue_Vips/What price range are you thinking about? I'm looking to spend between $150 and $200."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_104.mp4",
+        "text": "Dialogue_Vips/They're quite expensive. Could you give me a discount?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_105.mp4",
+        "text": "Dialogue_Vips/The prices are fixed throughout this store."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_107.mp4",
+        "text": "Dialogue_Vips/I have come to buy the new Sony stereo, which was advertised in the newspaper last week. That's just right over here."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_106.mp4",
+        "text": "Dialogue_Vips/Could you give me a discount if I bought both pairs of shoes?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_108.mp4",
+        "text": "Dialogue_Vips/How can I be of service to you?  –I came in expecting to buy the new Sony model for the advertised price of $179."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_109.mp4",
+        "text": "Dialogue_Vips/The last Panasonic model that I bought was only $250. Yes, well, the internet capability has pushed up the cost of phone."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_111.mp4",
+        "text": "Dialogue_Vips/How much of a reduction in price do you need? Well, everybody else is reducing their prices between 10 and 15 %."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_112.mp4",
+        "text": "Dialogue_Vips/It will be very difficult for us to reduce our prices. – Well, as you know, if we cannot remain competitive, we will lose our business."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_113.mp4",
+        "text": "Dialogue_Vips/However, we simply cannot cut our prices by 10 to 15 %. What is the best deal that you could offer us?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_110.mp4",
+        "text": "Dialogue_Vips/Well, could you lower the price to $ 300? No. The best I can do for you is 340."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_114.mp4",
+        "text": "Dialogue_Vips/<font> Maybe you could <font color=\"34baeb\">throw in</font> a spoiler and other accessories, or perhaps you could <font color=\"34baeb\">absorb</font> the cost of insurance. I'll have to check with my manager. <font><font color=\"34baeb\">throw in <font color=\"f2bc27\">eklemek <font color=\"34baeb\">absorb <font color=\"f2bc27\">devralmak, ~ üstlenmek"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_115.mp4",
+        "text": "Dialogue_Vips/Well, the price quoted on a special advertisement for this phone was $25. But the tag on the phone says $30."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_116.mp4",
+        "text": "Dialogue_Vips/It comes with a complimentary bag. How nice. Is there more than one color for the bag?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_117.mp4",
+        "text": "Dialogue_Vips/<font>According to the advertisement in Elle magazine this month, one set costs $65. – Yes, the ad costs $65 for the set, but you must bring the ad in order to receive the discount."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_118.mp4",
+        "text": "Dialogue_Vips/I'm sorry, this card has been denied. I wonder what the problem is. Well, the computer indicates to contact your bank."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_120.mp4",
+        "text": "Dialogue_Vips/Will you be paying by cash or credit? Oh, credit, please."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_121.mp4",
+        "text": "Dialogue_Vips/There seems to be a problem with your credit card. The transaction is not going through. Really?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_119.mp4",
+        "text": "Dialogue_Vips/Have you found what you were looking for, sir? Yes, I have. Thank you."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_126.mp4",
+        "text": "Dialogue_Vips/Has anyone waited on you yet, ma'am? Not yet."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_122.mp4",
+        "text": "Dialogue_Vips/I'd like to return these shoes, please. What seems to be the problem? Well, the sole is coming off of the right shoe."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_123.mp4",
+        "text": "Dialogue_Vips/I would like to order set menus for five, please. Yes, we currently have a regular five course menus priced at $5."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_127.mp4",
+        "text": "Dialogue_Vips/We really would prefer traveling in the morning. Don't you have any nonstop flights in the morning?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_124.mp4",
+        "text": "Dialogue_Vips/How long would it take to deliver? The delivery time ranges between 10 to 30 minutes, depending on the location."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_125.mp4",
+        "text": "Dialogue_Vips/Where would you like them to be delivered to? The address is the National Bank"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_129.mp4",
+        "text": "Dialogue_Vips/Is it possible for me to leave my return date open? Yes, sir, we can leave the return date open, but the return portion of the ticket must be used within 30 days."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_128.mp4",
+        "text": "Dialogue_Vips/Do you have a seating preference? Yes, I like to have a seat on the aisle."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_130.mp4",
+        "text": "Dialogue_Vips/Does she know where our offices are located? Yes, she has been there before."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_131.mp4",
+        "text": "Dialogue_Vips/How long before the departure time should we check in? For a domestic flight, we request that you check in at least one hour before departure time."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_133.mp4",
+        "text": "Dialogue_Vips/Do you know what time you expect to arrive? Our flight arrives in the morning and I expect to go straight to the hotel."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_132.mp4",
+        "text": "Dialogue_Vips/Rafferty, we have rooms available on June 21st. How long do you plan to stay with us? To Sunday the 23rd."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_136.mp4",
+        "text": "Dialogue_Vips/<font>My wife's in the bathroom and I don't want her to hear. – Okay, sir.  How can I help you? – I was wondering, could you bring some wine and flowers up to our room?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_134.mp4",
+        "text": "Dialogue_Vips/I was wondering, is there some place I could leave my bags? – You can leave your bags here with me. And when your room is available, I'll have someone put it in your room."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_137.mp4",
+        "text": "Dialogue_Vips/Has anyone helped you yet? No, not yet."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_141.mp4",
+        "text": "Dialogue_Vips/I just need to take some personal information. What's your full name?"
+    },
+    {
+        "path": "Dialogue_Vips/Vips_138.mp4",
+        "text": "Dialogue_Vips/Could you tell me how much this shirt costs? This shirt is $9.95. That's a very reasonable price."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_143.mp4",
+        "text": "Dialogue_Vips/How many suitcases will you be checking in? - Just one suitcase."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_140.mp4",
+        "text": "Dialogue_Vips/Do you have this one in black? I'm sorry."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_144.mp4",
+        "text": "Dialogue_Vips/You'll find the film guide in the pocket in front of you, our inflight magazine."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_142.mp4",
+        "text": "Dialogue_Vips/When will I be able to collect my ticket? It should be ready in a couple of days."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_146.mp4",
+        "text": "Dialogue_Vips/What flight were you on? Flight number MA 201 from Bangkok. Yes, your bag should be on carousel eight."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_148.mp4",
+        "text": "Dialogue_Vips/Sir, your bag is being held by customs. You can pick it up there."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_149.mp4",
+        "text": "Dialogue_Vips/My suitcase is missing and I was told I could collect it here."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_145.mp4",
+        "text": "Dialogue_Vips/Do you have anything to declare? No, I just have these duty free items that I bought on the plane."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_147.mp4",
+        "text": "Dialogue_Vips/Does it have your name on it? Yes, I wrote my name on the label."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_150.mp4",
+        "text": "Dialogue_Vips/You go through the exit doors, take a left, the bus stop should be right in front of you."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_153.mp4",
+        "text": "Dialogue_Vips/Would you like to pay now or shall I charge it to your room? I'd rather pay now, please."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_151.mp4",
+        "text": "Dialogue_Vips/Where can I get something to eat? Our restaurant is located on the third floor. Diner is served from seven."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_154.mp4",
+        "text": "Dialogue_Vips/Are you planning on staying long? Oh, I'm here for a week."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_157.mp4",
+        "text": "Dialogue_Vips/What currency would you like to change? I'd like to change tibet into Australian dollars."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_152.mp4",
+        "text": "Dialogue_Vips/Could I have the bill, please? Certainly. I'll get it for you."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_155.mp4",
+        "text": "Dialogue_Vips/What are the best souvenirs to buy in Australia? Well, Australia is well known for its wildlife. There are a lot of things with Kangaroos and Koalas on them."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_156.mp4",
+        "text": "Dialogue_Vips/I'd like to exchange some currency. Is there a bank nearby? I'm afraid they're all closed on Sundays."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_161.mp4",
+        "text": "Dialogue_Vips/And would you like to sit in the stalls or the balcony? The balcony, please. Okay."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_159.mp4",
+        "text": "Dialogue_Vips/I better go now before the market closes."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_158.mp4",
+        "text": "Dialogue_Vips/Our exchange rate is 22.62 Baht to the dollar, and our commission fee is 2 %. Okay, I'd like to change 10,000 Baht, please."
+    },
+    {
+        "path": "Dialogue_Vips/Vips_160.mp4",
+        "text": "Dialogue_Vips/I'm interested in seeing a ballet performance. Oh. Well, we have Mirror Mirror showing at the moment."
+    }
+];
