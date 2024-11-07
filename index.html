@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Video Puanlama</title>
+      <link rel="stylesheet" href="Rep_Style.css">
+</head>
+<body>
+    <div id="div_ch">
+        <label><input class="ch_tepe" type="checkbox" id="Movie_Clips"> Movies</label>
+        <label><input class="ch_tepe" type="checkbox" id="Words_Forms"> Words</label>
+        <label><input class="ch_tepe" type="checkbox" id="Grammar"> Grammar</label>
+        <label><input class="ch_tepe" type="checkbox" id="Dialogue_Vips" checked> Vipss</label><br>
+    </div>
+	<label><input type="checkbox" id="ch_audio" onchange="toggleAudio()"> Ses</label>
+
+    <div id="statistics">
+        <p id="tot_vids"></p>
+        <p id="filt_vids"></p>
+        <p id="avg_rate"></p>
+        <p id="tdy_vids"></p>
+    </div>
+
+    <div id="vid_info">
+        <p id="vid_name"></p>
+        <video id="video-player" width="400" controls autoplay>
+            <source id="video-source" type="video/mp4">
+            Tarayıcınız video oynatmayı desteklemiyor.
+        </video>
+		<button id="bt_replay" onclick="replayAudio()">Audio Replay</button>
+    </div>
+
+<label id="lb_srt" style="display: none;">Altyazı</label>
+
+
+<div class="but_container">
+    <button id="bt_down" class="button" onclick="downJson()">Down</button>
+    <button id="bt_finish" class="button" onclick="finishWork()">Finish</button>
+    <button id="bt_start" class="button" onclick="getRandomVideo()">Start Puan</button>
+</div>
+
+<div id="ses_bts">
+<button id="bt_srt" onclick="srtShow()">Subtitle</button>
+<button id="recordBtn">Rec</button>
+<button id="stopBtn">Stop</button>
+<button id="playBtn">Play</button>
+<p id="statusLabel">Durum: Hazır</p>
+</div>
+
+<div id="rating_cont">
+        <div class="rating-buttons">
+            <button onclick="submitRating(1)">1</button>
+            <button onclick="submitRating(2)">2</button>
+            <button onclick="submitRating(3)">3</button>
+            <button onclick="submitRating(4)">4</button>
+            <button onclick="submitRating(5)">5</button>
+        </div>
+</div>
+  
+
+<script src="Rep_Script.js"></script>
+<script src="Rep_Subtitles_DB.js"></script>
+<script src="Ses_Script.js"></script>
+</body>
+</html>
