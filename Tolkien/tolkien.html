@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolkien</title>
+    <link rel="stylesheet" href="tolkien_styles.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+		<script src="let_const.js"></script>
+</head>
+<body>
+    <!-- Şifre Giriş Ekranı -->
+    <div id="pody-screen" class="pody-screen">
+        <div class="pody-container">
+            <h2>Code Screen</h2>
+            <input type="password" id="pody-input" placeholder="****" autofocus>
+			<button id="bt_sign" onclick="girisYap()">Sign in</button>
+            <p id="pody-error" class="error-message"></p>
+        </div>
+    </div>
+
+	
+    <!-- Ana İçerik (Şifre doğru girilirse gösterilir) -->
+    <div id="main-content" class="container" style="display: none;">
+        <!-- Sabit Butonlar -->
+
+<div class="div_sideMenu" id="side-menu">
+	<button id="bt_menu" onclick="goMenu()">☰ Menu</button>	
+    <div class="story-selection">
+        <button id="add-new-story">New</button>
+		<button id="edit-settings">Edit</button>
+		<button id="bt_down" onclick="jsonIndir()">Json ⬇</button>	
+    </div>
+		
+    <select id="sel_story"></select>
+	<div class="story-selection">
+		<button id="save-story">Save</button>
+		<button id="bt_read" onclick="readGPT()">Read</button>
+	</div>
+	
+</div>
+
+
+        <!-- Hikaye Detayları -->
+        <div id="story-details">
+            <h3 id="story-title">Title</h3>
+            <div id="sentence-list"></div>
+        </div>
+
+        <!-- Ayarlar Modalı -->
+        <div id="settings-modal" class="modal">
+            <div class="modal-content">
+                <h3>Hikaye Ayarları</h3>
+                <label for="edit-title">Başlık:</label>
+                <input type="text" id="edit-title" placeholder="Hikaye Başlığı">
+                <label for="edit-tur">Türkçe Metin:</label>
+                <textarea id="edit-tur" placeholder="Türkçe metin buraya yazılacak..."></textarea>
+                <button id="save-settings">Kaydet</button>
+                <button id="close-settings">Kapat</button>
+            </div>
+        </div>
+<div id="div_gpt">
+    <button id="close-div_gpt" onclick="kapat()">X</button>
+    <label id="lb_gpt"></label>
+</div>
+
+    </div>
+    <script src="tolkien_script.js"></script>
+</body>
+</html>
