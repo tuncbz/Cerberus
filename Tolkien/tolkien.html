@@ -24,44 +24,56 @@
     <div id="main-content" class="container" style="display: none;">
         <!-- Sabit Butonlar -->
 
-<div class="div_sideMenu" id="side-menu">
-	<button id="bt_menu" onclick="goMenu()">☰ Menu</button>	
-    <div class="story-selection">
-        <button id="add-new-story">New</button>
-		<button id="edit-settings">Edit</button>
-		<button id="bt_down" onclick="jsonIndir()">Json ⬇</button>	
-    </div>
-		
-    <select id="sel_story"></select>
-	<div class="story-selection">
+	<div id="top-menu" class="div_topMenu">
 		<button id="save-story">Save</button>
-		<button id="bt_read" onclick="readGPT()">Read</button>
+		<div class="story-selection">
+			<button id="add-new-story">New</button>
+			<button id="edit-settings">Edit</button>
+			<button id="bt_down" onclick="jsonIndir()">Json ⬇</button>
+		</div>
+			<div class="story-selection">
+		<button id="open_list" onclick="toggleStoryList()">Story List</button>
+			<button id="bt_read" onclick="readGPT()">Read</button>
+			<button id="bt_menu" onclick="goMenu()">☰ Menu</button>
+		</div>
+		<label id="lb_menu">&#9660;<span id="lb_tit">.........</span>&#9660;</label>
 	</div>
-	
+
+<div id="container_list">
+    <button class="close_div_gpt" onclick="closeRead()">X</button>
+    <div id="story_list"></div>
 </div>
 
+	<!-- Ayarlar Modalı -->
+	<div id="settings-modal" class="modal">
+		<div class="modal-content">
+			<label for="edit-title">Başlık:</label>
+			<input type="text" id="edit-title" placeholder="Hikaye Başlığı">
+			<input type="text" id="edit-category" placeholder="Kategori">
+			<label for="edit-tur">Türkçe Metin:</label>
+			<textarea id="edit-tur" placeholder="Türkçe metin buraya yazılacak..."></textarea>
+			<div class="button-group">
+				<button id="save-settings">Kaydet</button>
+				<button id="delete-story">Sil</button>
+				<button id="close-settings">Kapat</button>
+			</div>
+		</div>
+	</div>
 
-        <!-- Hikaye Detayları -->
-        <div id="story-details">
-            <h3 id="story-title">Title</h3>
-            <div id="sentence-list"></div>
-        </div>
+<!-- Hikaye Detayları -->
+<div id="story-details">
+    <h3 id="story-title">Title</h3>
+    <div id="sentence-list"></div>
+</div>
 
-        <!-- Ayarlar Modalı -->
-        <div id="settings-modal" class="modal">
-            <div class="modal-content">
-                <h3>Hikaye Ayarları</h3>
-                <label for="edit-title">Başlık:</label>
-                <input type="text" id="edit-title" placeholder="Hikaye Başlığı">
-                <label for="edit-tur">Türkçe Metin:</label>
-                <textarea id="edit-tur" placeholder="Türkçe metin buraya yazılacak..."></textarea>
-                <button id="save-settings">Kaydet</button>
-                <button id="close-settings">Kapat</button>
-            </div>
-        </div>
 <div id="div_gpt">
-    <button id="close-div_gpt" onclick="kapat()">X</button>
+    <button class="close_div_gpt" onclick="closeRead()">X</button>
+	<label id="lb_titRead">.........</label>
     <label id="lb_gpt"></label>
+    <div id="div_bt">
+	<button id="bt_random" onclick="nextStory()">Random Story</button>
+	<button class="close_div_gpt" onclick="closeRead()">X</button>
+	</div>
 </div>
 
     </div>
